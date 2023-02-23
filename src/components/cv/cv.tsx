@@ -9,9 +9,9 @@ library.add(faFilePdf);
 
 export const CV = ( cvData : CvDataModel) =>{
   return (
-      <section className="home-container">
-        <div className="CV">
-          <header className="CV-header"> 
+      <section className="cv-container">
+        <div className="cv">
+          <header className="cv-header"> 
             <div>
               <div>
                 <h1>Curriculum Vitae</h1>
@@ -31,17 +31,18 @@ export const CV = ( cvData : CvDataModel) =>{
                   <h3>Education</h3>
                 </Col>
                 <Col className='cv-body' lg="12">
+                <Row>
                   {
                     cvData.cv.education && cvData.cv.education.map(( item ) => {
                       return(
-                        <Row className='item'>
-                          <Col>
-                            <span className="date">{item.year}</span>
-
-                            <span>{item.universityName}</span>
-                            <span>
-                              {item.honors}
-                            </span>
+                        <Row>
+                          <Col className='item'>
+                              <span className="date">{item.year}</span>
+                              <span>{item.universityName}</span>
+                              <span>
+                                {item.honors}
+                              </span>
+                          
                             <Row>
                             <div className="info">
                               {item.specialization}
@@ -52,6 +53,7 @@ export const CV = ( cvData : CvDataModel) =>{
                       )
                     })
                   }
+                  </Row>
                 </Col>
               </Row>
             </div>
@@ -62,9 +64,9 @@ export const CV = ( cvData : CvDataModel) =>{
                 </Col>
                 <Col className='resume-body' lg="12">
                   {
-                    cvData.cv.teachingExperience && cvData.cv.teachingExperience.map((item) => {
+                    cvData.cv.teachingExperience && cvData.cv.teachingExperience.map((item, index) => {
                       return(
-                        <Row className='item'>
+                        <Row className='item' key={index}>
                           <Col>
                               <span className="date">
                                 {item.year}

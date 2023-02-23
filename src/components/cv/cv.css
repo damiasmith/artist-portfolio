@@ -1,10 +1,63 @@
-.App {
-  text-align: center;
+.name {
+  width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.role {
+  display: flex;
+}
+
+.about {
+  min-height: 30rem; 
+  max-height: 80rem; 
+  max-width: 30rem;
+}
+
+.profile {
+  z-index: 2;
+  opacity: 1;
+}
+
+.cv {
+  z-index: 2;
+  min-height: 30rem; 
+  max-height: 300rem; 
+  max-width: 50rem;
+}
+
+.cv-body {
+  display: flex;
+
+}
+
+.cv-item {
+  padding: 1rem;
+  z-index: 3;
+}
+
+.item {
+  justify-content: space-around;
+}
+
+.pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-icon {
+  color: white;
+  z-index: 3;
+}
+
+.title {
+  display: flex;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,16 +66,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;

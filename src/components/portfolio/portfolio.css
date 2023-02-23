@@ -1,5 +1,23 @@
-.App {
-  text-align: center;
+.class-name {
+  margin-bottom: 5rem;
+  /* justify-content: space-around; */
+}
+.thumbnail-image {
+  height: 200px;
+  width: auto;
+  margin: 1rem;
+  border-radius: .3rem;
+}
+
+.portfolio-image-container {
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
 }
 
 .App-logo {

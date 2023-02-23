@@ -10,8 +10,9 @@ import Portfolio from '../portfolio/portfolio';
 import Shop from '../shop/shop';
 import Footer from '../footer/footer';
 import { CvDataModel } from '../../models/cvData.model';
+import { Images } from '../../models/images.model';
 
-export const MainContainer = (cvData: CvDataModel) => {
+export const MainContainer = (cvData: CvDataModel, images: Images) => {
     return (
       <div className='app-container'>
         <Router>
@@ -43,13 +44,13 @@ export const MainContainer = (cvData: CvDataModel) => {
               <Route path='/' element={<Home />} /> 
               <Route path='/biography' element={<Biography />} />
               <Route path='/cv' element={<CV {...cvData}/>} />
-              <Route path='/portfolio' element={<Portfolio/>} />
+              <Route path='/portfolio' element={<Portfolio />} />
               <Route path='/shop' element={<Shop/>} />
             </Routes> 
           </div>
         </Router>
         <Container className='footer'>
-          <Footer></Footer>
+          <Footer {...cvData}></Footer>
         </Container>
       </div>  
     )
