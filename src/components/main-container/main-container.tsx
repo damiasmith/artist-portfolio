@@ -7,6 +7,7 @@ import Home from '../home/home';
 import { CV } from '../cv/cv';
 import Biography from '../biography/biography';
 import Portfolio from '../portfolio/portfolio';
+import Profligacy from '../portfolio/profligacy/profligacy';
 import Shop from '../shop/shop';
 import Footer from '../footer/footer';
 import { CvDataModel } from '../../models/cvData.model';
@@ -17,7 +18,7 @@ export const MainContainer = (cvData: CvDataModel, images: Images) => {
       <div className='app-container'>
         <Router>
           <div className='heading'>
-            <Nav >
+            <Nav>
               <div className='home'>
                 <Nav.Link as={Link} to='/'>
                   Damia Smith
@@ -46,6 +47,7 @@ export const MainContainer = (cvData: CvDataModel, images: Images) => {
               <Route path='/cv' element={<CV {...cvData}/>} />
               <Route path='/portfolio' element={<Portfolio />} />
               <Route path='/shop' element={<Shop/>} />
+              <Route path='/portfolio/profligacy' element={<Profligacy />} />
             </Routes> 
           </div>
         </Router>

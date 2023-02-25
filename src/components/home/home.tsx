@@ -7,17 +7,17 @@ import './home.css';
 
 function Home() {
   return (
-    <div className="home-container">
-      {/* <header className="Home-header">
+    <div className='home-container'>
+      {/* <header className='Home-header'>
         Home
       </header> */}
  
-        <section className="home-image-container">
+        <section className='home-image-container'>
           <div>
-            <img src={homeImage} className="home-image" alt="profligacy"/>
+            <img src={homeImage} className='home-image' alt='profligacy'/>
           </div>
           <div>
-            <img src={smallHomeImage} className="small-home-image" alt="profligacy_body"/>
+            <img src={smallHomeImage} className='small-home-image' alt='profligacy_body'/>
           </div>
         </section>
 

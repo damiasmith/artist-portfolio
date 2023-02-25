@@ -3,8 +3,8 @@ import './biography.css';
 
 function Biography() {
   return (
-    <div className="Bio">
-      <header className="Bio-header">
+    <div className='Bio'>
+      <header className='Bio-header'>
         Biography
       </header>
     </div>

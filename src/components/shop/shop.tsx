@@ -2,8 +2,8 @@ import React from 'react';
 
 function Shop() {
   return (
-    <div className="Shop">
-      <header className="Shop-header">
+    <div className='Shop'>
+      <header className='Shop-header'>
         Shop
       </header>
     </div>
