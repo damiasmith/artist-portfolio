@@ -1,6 +1,5 @@
 import { Images, Image } from '../../models/images.model';
 import './portfolio.css';
-import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import { thumbnailImage} from '../../portfolioData';
 const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
@@ -16,7 +15,7 @@ function Portfolio() {
         {
           thumbnailImage.imageList && thumbnailImage.imageList.map(( item: Image, index: number ) => (
             <div key={index} >
-              <a href={`portfolio/${item.page}`} >
+              <a href={item.page} >
                 <img src={`${s3}/${item.image}.jpg`} className='thumbnail-image' alt={`${item.image}`} height = '200'/>
               </a>
             </div>

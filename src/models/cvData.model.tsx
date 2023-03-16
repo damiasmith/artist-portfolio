@@ -31,9 +31,24 @@ export interface CvModel {
         classes: string[],
       } [],
     soloExhibitions?: 
+      {
+        year: string,
+        exhibitions: Exhibition[],
+      }[]
+    groupExhibitions?: 
+      {
+        year: string,
+        exhibitions: Exhibition[],
+      }[]
+    juriedExhibitions?: 
+      {
+        year: string,
+        exhibitions: Exhibition[],
+      }[]
+    grants?: 
       {} [],
-    portfolio?: 
-      {} []
+    awards?: 
+      {} [],
   
 };
 
@@ -42,6 +57,13 @@ export interface SocialLinksModel {
   url: string, 
   className: any
 } 
+
+export interface Exhibition {
+    title: string,
+    gallery?: string,
+    institution?: string,
+    location: string
+}
 
 export interface FooterLinks {
   socialLinks: SocialLinksModel[]

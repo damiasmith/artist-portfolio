@@ -1,5 +1,5 @@
 import { Image } from '../../../models/images.model';
-import './portfolio.css';
+import './profligacy.css';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import { profligacyImage } from '../../../portfolioData';

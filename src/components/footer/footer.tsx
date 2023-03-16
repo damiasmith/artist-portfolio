@@ -10,8 +10,8 @@ import { CvDataModel, SocialLinksModel } from '../../models/cvData.model';
 function Footer(cvData: CvDataModel  ) {
     return (
       <footer className='footer'>
-        <Navbar className='social'>
-        <Col>
+        <Navbar>
+        <Col className='social'>
               {
                 cvData.socialLinks && cvData.socialLinks.map((item: SocialLinksModel, index)=> {
                   return(

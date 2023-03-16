@@ -1,4 +1,3 @@
-import * as react from 'react';
 import './main-container.css';
 import { Link, Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
@@ -13,7 +12,7 @@ import Footer from '../footer/footer';
 import { CvDataModel } from '../../models/cvData.model';
 import { Images } from '../../models/images.model';
 
-export const MainContainer = (cvData: CvDataModel, images: Images) => {
+export const MainContainer = (cvData: CvDataModel) => {
     return (
       <div className='app-container'>
         <Router>
@@ -34,20 +33,20 @@ export const MainContainer = (cvData: CvDataModel, images: Images) => {
                 <Nav.Item> 
                   <Nav.Link as={Link} to='/biography' className='heading'>Biography</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                   <Nav.Link as={Link} to='/shop' className='heading'>Shop</Nav.Link>
-                </Nav.Item>
+                </Nav.Item> */}
               </div>
             </Nav>
           </div>
           <div className='body'>
             <Routes>
               <Route path='/' element={<Home />} /> 
-              <Route path='/biography' element={<Biography />} />
+              <Route path='/biography' element={<Biography/>} />
               <Route path='/cv' element={<CV {...cvData}/>} />
               <Route path='/portfolio' element={<Portfolio />} />
+                <Route path='/profligacy' element={<Profligacy />} />
               <Route path='/shop' element={<Shop/>} />
-              <Route path='/portfolio/profligacy' element={<Profligacy />} />
             </Routes> 
           </div>
         </Router>

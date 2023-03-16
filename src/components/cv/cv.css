@@ -1,46 +1,60 @@
-.name {
-  width: 50%;
-}
-
-.image {
-  display: flex;
-  justify-content: space-between;
-}
-
-.role {
-  display: flex;
-}
-
-.about {
-  min-height: 30rem; 
-  max-height: 80rem; 
-  max-width: 30rem;
-}
-
-.profile {
-  z-index: 2;
-  opacity: 1;
-}
 
 .cv {
   z-index: 2;
-  min-height: 30rem; 
-  max-height: 300rem; 
-  max-width: 50rem;
-}
-
-.cv-body {
-  display: flex;
-
 }
 
 .cv-item {
   padding: 1rem;
   z-index: 3;
+  display: flex;
+}
+
+.cv-header {
+padding-left: 2rem;
 }
 
 .item {
-  justify-content: space-around;
+  display: flex;
+  padding-right: .5rem;
+}
+
+.info {
+  padding-left: 3rem;
+}
+
+.university {
+  font-weight: bold;
+}
+
+.honors{
+  padding-left: .5rem;
+}
+
+.role {
+  font-weight: bold;
+  padding-right: .5rem;
+}
+
+.institution-info {
+  padding-bottom: .5rem;
+}
+
+.institution-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.exhibition-info {
+  padding-bottom: .5rem;
+}
+
+.exhibition-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gallery {
+  padding-right: .5rem;
 }
 
 .pdf {
@@ -56,27 +70,43 @@
 }
 
 .title {
-  display: flex;
-  
+  font-weight: bold;
+  padding-right: .5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.institution {
+  padding-right: .5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .institution-info {
+    padding-left: 1rem;
+  }
+
+  .institution-container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .exhibition-container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .university {
+    padding-left: .5rem;
+  }
+
+  .role {
+    padding-left: .5rem;
+  }
+
+  .institution {
+    padding-left: .5rem;
+  }
+
+  .item {
+    padding-left: 1rem;
   }
 }
 
-
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

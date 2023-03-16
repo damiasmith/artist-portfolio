@@ -1,11 +1,8 @@
-import React from 'react';
-import homeImage from '../../images/profligacy2.jpg';
-import smallHomeImage from '../../images/profligacy.jpg';
-import Row from 'react-bootstrap/Row';
 import './home.css';
 
 
 function Home() {
+  const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
   return (
     <div className='home-container'>
       {/* <header className='Home-header'>
@@ -14,10 +11,10 @@ function Home() {
  
         <section className='home-image-container'>
           <div>
-            <img src={homeImage} className='home-image' alt='profligacy'/>
+            <img src={`${s3}/profligacy.jpg`} className='home-image' alt='profligacy'/>
           </div>
           <div>
-            <img src={smallHomeImage} className='small-home-image' alt='profligacy_body'/>
+            <img src={`${s3}/profligacy_body.jpg`} className='small-home-image' alt='profligacy_body'/>
           </div>
         </section>
 

@@ -24,13 +24,9 @@
   flex-direction: row;
   margin: 0;
   padding: 0;
-}
-.col {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
+  backdrop-filter: blur(3px);
+  border-radius: 5px;
+  opacity: 0.8;
 }
 
 .icon {
