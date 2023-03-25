@@ -38,7 +38,7 @@ export const cvData: CvDataModel = {
   website: 'https://damiasmith.com',
   socialLinks: footerLinks.socialLinks,
   cv: {
-    url: 'https://s3.amazonaws.com/damia.smith.cv/cv/CV2022.pdf',
+    url: 'https://s3.amazonaws.com/damia.smith.website.images/Damia.Smith.CV_2023.pdf',
     education: [
       {
         universityName: 'University of Kansas',
@@ -148,17 +148,6 @@ export const cvData: CvDataModel = {
             gallery: 'Art and Design Gallery',
             institution: 'University of Kansas',
             location: 'Lawrence, KS'
-          }
-        ]
-      },
-      {
-        year: '2009',
-        exhibitions: [
-          {
-            title: 'Concurrent: Artists-in-Residence Exhibition',
-            gallery: 'Grand Center Gallery',
-            institution: 'Craft Alliance',
-            location: 'St. Louis, MO'
           }
         ]
       }
@@ -309,9 +298,15 @@ export const cvData: CvDataModel = {
         year: '2009',
         exhibitions: [
           {
-            title: 'Douglas County School District Faculty Art Show',
-            institution: 'Douglas County Library',
-            location: 'Highlands Ranch, CO'
+            title: 'Biennial Faculty Exhibition',
+            institution: 'Craft Alliance',
+            location: 'St. Louis, MO'
+          },
+          {
+            title: 'Concurrent: Artists-in-Residence Exhibition',
+            gallery: 'Grand Center Gallery',
+            institution: 'Craft Alliance',
+            location: 'St. Louis, MO'
           }
         ]
       },
@@ -319,8 +314,8 @@ export const cvData: CvDataModel = {
         year: '2008',
         exhibitions: [
           {
-            title: 'Biennial Faculty Exhibition',
-            institution: 'Craft Alliance',
+            title: 'New Faces of Craft: Artists from Craft Alliance at Grand Center',
+            institution: 'St. Louis University',
             location: 'St. Louis, MO'
           }
         ]

@@ -2,27 +2,27 @@ import { Images } from './models/images.model';
 
 export const thumbnailImage: Images = {
   imageList: [
-    {image: 'decorative_thumbnail', page: 'decorative'},
-    {image: 'profligacy_thumbnail', page: 'profligacy'},
-    {image: 'expectations_thumbnail', page: 'expectations'},
-    {image: 'excessive_thumbnail', page: 'excessive'},
-    {image: 'self-fulfilling_prophecy_detail_thumbnail', page: 'self-fulfilling.prophecy'},
-    {image: 'wild_seeds_thumbnail', page: 'wild.seeds'},
-    {image: 'equality_thumbnail', page: 'equality'},
-    {image: 'chain_reaction_thumbnail', page: 'chain.reaction'},
-    {image: 'exasperation_thumbnail', page: 'exasperation'},
-    {image: 'hands _tied_thumbnail', page: 'hands.tied'},
-    {image: 'onus_thumbnail', page: 'onus'},
-    {image: 'osteoderm_thumbnail', page: 'osteoderm'},
-    {image: 'phalangeal_thelodonts_thumbnail', page: 'phalangeal.thelodonts'},
-    {image: 'defense_mechanism_thumbnail', page: 'defense.mechanism'},
-    {image: 'epithelial_neoplasms_body_thumbnail', page: 'epithelial.neoplasms'},
-    {image: 'apothecia_body_thumbnail', page: 'apothecia'}
+    {id: '1', image: 'decorative_thumbnail', page: 'decorative'},
+    {id: '2', image: 'profligacy_thumbnail', page: 'profligacy'},
+    {id: '3', image: 'expectations_thumbnail', page: 'expectations'},
+    {id: '4', image: 'excessive_thumbnail', page: 'excessive'},
+    {id: '5', image: 'self-fulfilling_prophecy_detail_thumbnail', page: 'self-fulfilling.prophecy'},
+    {id: '6', image: 'wild_seeds_thumbnail', page: 'wild.seeds'},
+    {id: '7', image: 'equality_thumbnail', page: 'equality'},
+    {id: '8', image: 'chain_reaction_thumbnail', page: 'chain.reaction'},
+    {id: '9', image: 'exasperation_thumbnail', page: 'exasperation'},
+    {id: '10', image: 'hands _tied_thumbnail', page: 'hands.tied'},
+    {id: '11', image: 'onus_thumbnail', page: 'onus'},
+    {id: '12', image: 'osteoderm_thumbnail', page: 'osteoderm'},
+    {id: '13', image: 'phalangeal_thelodonts_thumbnail', page: 'phalangeal.thelodonts'},
+    {id: '14', image: 'defense_mechanism_thumbnail', page: 'defense.mechanism'},
+    {id: '15', image: 'epithelial_neoplasms_body_thumbnail', page: 'epithelial.neoplasms'},
+    {id: '16', image: 'apothecia_body_thumbnail', page: 'apothecia'}
   ]};
 
 export const profligacyImage: Images = {
   imageList: [
-    {image: 'profligacy', page: 'profligacy'},
-    {image: 'profligacy_body', page: 'profligacy'}
+    {id: '1', image: 'profligacy', page: 'profligacy'},
+    {id: '2', image: 'profligacy_body', page: 'profligacy'}
   ]};
 

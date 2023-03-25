@@ -1,15 +1,22 @@
-.class-name {
-  margin-bottom: 5rem;
-  /* justify-content: space-around; */
+.profligacy-header{
+  margin-left: 2rem;
 }
+
 .profligacy-image {
-  height: 1000px;
+  height: 400px;
   width: auto;
   margin: 1rem;
   border-radius: .2rem;
 }
 
-.portfolio-image-container {
+.profligacy-model-image {
+  height: 800px;
+  width: auto;
+  margin: .2rem;
+  border-radius: .2rem;
+}
+
+.profligacy-image-container {
   align-items: center;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -20,37 +27,12 @@
   flex-wrap: wrap
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media screen and (max-width: 575px) {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .profligacy-model-image {
+    height: 300px;
+    width: auto;
+    margin: .2rem;
+    border-radius: .2rem;
   }
 }

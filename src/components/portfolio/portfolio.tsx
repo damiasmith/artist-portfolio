@@ -1,16 +1,12 @@
 import { Images, Image } from '../../models/images.model';
 import './portfolio.css';
-// import Col from 'react-bootstrap/Col';
 import { thumbnailImage} from '../../portfolioData';
 const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 
 
-function Portfolio() {
+export const Portfolio = () => {
   return (
     <div className='portfolio'>
-      <header className='portfolio-header'>
-        {/* Portfolio */}
-      </header>
       <section className='portfolio-image-container'>
         {
           thumbnailImage.imageList && thumbnailImage.imageList.map(( item: Image, index: number ) => (
@@ -26,4 +22,3 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;

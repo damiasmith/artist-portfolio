@@ -1,5 +1,13 @@
-.bio-body {
+.bio-container {
   padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bio-body {
+  padding: 1rem;
+  width: 80%;
 }
 
 .bio-header {
@@ -9,19 +17,25 @@
 .bio-image {
   height: 200px;
   width: auto;
-  margin: 1rem;
+  padding: 1rem;
   border-radius: .3rem;
 }
 
 .bio-image-container {
-  justify-content: end;
+  justify-content: center;
   display: flex;
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 775px) {
+  .bio-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .bio-body {
+    padding: .5rem;
+    width: 100%;
   }
 }
 

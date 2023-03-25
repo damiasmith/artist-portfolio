@@ -7,14 +7,12 @@ const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 
 export const Biography = () => {
   return (
-     <div className='bio-item'>
-     <Row>
-       <Col className='bio-header' sm='8'>
-           <h3><span>Biography</span></h3>
-       </Col>
-       <Col className='bio-body' lg='12'>
-        <Row>
-        <Col md='9'>
+    <div className='bio-item'>
+      <header className='bio-header'> 
+        <h3>Biography</h3>
+      </header>
+      <div className='bio-container'>
+        <div className='bio-body'>
           {
             biography.paragraph && biography.paragraph.map((item, index: number) => {
               return(
@@ -28,13 +26,11 @@ export const Biography = () => {
               )}
             )                    
            }
-         </Col>
-         <Col className='bio-image-container' sm='3'>
+         </div>
+         <div className='bio-image-container'>
           <img src={`${s3}/damia_smith.jpg`} className='bio-image' alt='damia smith' height = '200'/>
-        </Col>
-        </Row>
-       </Col>
-     </Row>
+        </div>
+      </div>
    </div>
   );
 }

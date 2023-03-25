@@ -11,87 +11,84 @@ library.add(faFilePdf);
 export const CV = ( cvData : CvDataModel) => {
   const cx = classNames.bind({ item: 'item' });
   return (
-      <section className='cv-container'>
-        <div className='cv'>
-          <header className='cv-header'> 
-            <div>
-              <div>
-                <h3>Curriculum Vitae</h3>
-              </div>
-            </div>
-          </header>
-          <div className='pdf'> 
-            <div>PDF</div>
-              <div>
-                <a href={cvData.cv.url} target='_blank' rel='noopener noreferrer'>
-                    <FontAwesomeIcon icon={ faFilePdf } size='2x' className='pdf-icon'/>
-                </a>
-              </div>
-            </div>
+    <section>
+
+        <header className='cv-header'> 
+          <h3>Curriculum Vitae</h3>
+        </header>
+        <div className='pdf'> 
+          <div>
+            <a href={cvData.cv.url} target='_blank' rel='noopener noreferrer'>
+              <FontAwesomeIcon icon={ faFilePdf } size='2x' className='pdf-icon'/>
+            </a>
           </div>
-          <div className='education cv-item'>
-            <Row>
-              <Col className='cv-heading' sm='8'>
-                <h4>Education</h4>
-              </Col>
-              <Col className='cv-body' lg='12'>
-                <Row>
-                  {
-                    cvData.cv.education && cvData.cv.education.map(( item, index ) => {
-                      return(
-                        <div>
-                          <Row className='education-item' key={index}>
-                            <Col className='year' sm='2'>{item.year}</Col>
-                            <Col className='institution-info'>
-                              <Row>
-                                <div className='institution-container'>
-                                  <span className='university'>{item.universityName}</span>
-                                  <span className='honors'>{item.honors}</span>
-                                </div>
-                                <div className='info'> 
-                                  {item.specialization}
-                    
-                                </div>
-                              </Row>
-                            </Col>
-                          </Row>
-                        </div>
+        </div>
+        <div className='education cv-item'>
+          <Row>
+            <Col className='cv-heading' sm='8'>
+              <h4>Education</h4>
+            </Col>
+            <Col lg='12'>
+              <Row>
+                {
+                  cvData.cv.education && cvData.cv.education.map(( item, index ) => {
+                    return(
+                      <div>
+                        <Row className='item' key={index}>
+                          <Col sm='2'>{item.year}</Col>
+                          <Col className='info'>
+                            <Row>
+                              <div className='container'>
+                                <span className='item bold'>{item.universityName}</span>
+                                <span className='item'>{item.honors}</span>
+                              </div>
+                            </Row>
+                            <Row>
+                               <div className='indent container'> 
+                                {item.specialization}
+                              </div>
+                            </Row>
+                          </Col>
+                        </Row>
+                      </div>
                       )
                     })
                   }
-                  </Row>
-                </Col>
+                </Row>
+              </Col>
             </Row>
           </div>
           <div className='teaching cv-item'>
             <Row>
               <Col className='cv-heading' sm='8'>
-                  <h4><span>Teaching Experience</span></h4>
+                  <h4>Teaching Experience</h4>
               </Col>
-              <Col className='cv-body' lg='12'>
+              <Col lg='12'>
                 <Row>
                   {
                     cvData.cv.teachingExperience && cvData.cv.teachingExperience.map((item, index: number) => {
                       return(
                         <div>
-                          <Row className='teaching-item' key={index}>
-                            <Col className='date' sm='2'>{item.year}</Col>
-                            <Col className='institution-info'>
-                              <Row >
-                                <div className='institution-container'>
-                                  <span className='role'>{item.role}</span>
-                                  <span className='institution'>
+                          <Row className='item' key={index}>
+                            <Col sm='2'>{item.year}</Col>
+                            <Col>
+                              <Row>
+                                <div className='container'>
+                                  <span className='item bold'>{item.role}</span>
+                                  <span className='item'>
                                     {item.institution}
                                   </span>
-                                  <span className='institution'>
+                                  <span className='item'>
                                     {item.location}
                                   </span>
                                 </div>
+                                <div className='space'>
                                 { item.classes && item.classes.map((item, index) => {
                                   return(
-                                    <div key={index} className='info'>{item}</div>
+                                    <div key={index} className='indent'>{item}</div>
                                   )}
                                 )}
+                                </div>
                               </Row>
                             </Col>
                           </Row>
@@ -106,23 +103,23 @@ export const CV = ( cvData : CvDataModel) => {
           <div className='solo cv-item'>
             <Row>
               <Col className='cv-heading' lg='12'>
-                <h4><span>Solo, Two and Three-person Exhibitions and Performances</span></h4>
+                <h4>Solo Exhibitions and Performances</h4>
               </Col>
-              <Col className='cv-body' lg='12'>
+              <Col lg='12'>
                 <Row>
                     {
                       cvData.cv.soloExhibitions && cvData.cv.soloExhibitions.map((item, index: number) => {
                         return(
                           <div>
-                            <Row className='item' key={index}>
-                              <Col className='year' sm='2'>{item.year}</Col>
-                              <Col className='exhibition-info'>
+                            <Row className='item space' key={index}>
+                              <Col sm='2'>{item.year}</Col>
+                              <Col className='info'>
                                 <Row>
                                   { item.exhibitions && item.exhibitions.map((item, index) => {
                                     const className = cx({ item: item.institution});
                                     return(
-                                      <div key={index} className='exhibition-container'>
-                                        <span className='title item'>{item.title}</span>
+                                      <div key={index} className='container'>
+                                        <span className='bold item'>{item.title}</span>
                                         <span className='item'>{item.gallery}</span>
                                         <span className={className}>{item.institution}</span>
                                         <span className='item'>{item.location}</span>
@@ -151,15 +148,15 @@ export const CV = ( cvData : CvDataModel) => {
                     cvData.cv.groupExhibitions && cvData.cv.groupExhibitions.map((item, index: number) => {
                       return(
                         <div>
-                            <Row className='item' key={index}>
-                              <Col className='date' sm='2'>{item.year}</Col>
-                              <Col className='exhibition-info'>
+                            <Row className='item space' key={index}>
+                              <Col sm='2'>{item.year}</Col>
+                              <Col className='info'>
                                 <Row>
                                   { item.exhibitions && item.exhibitions.map((item, index) => {
                                     const className = cx({ item: item.gallery});
                                     return(
-                                      <div key={index} className='exhibition-container'>
-                                        <span className='title item'>{item.title}</span>
+                                      <div key={index} className='container'>
+                                        <span className='bold item'>{item.title}</span>
                                         <span className={className}>{item.gallery}</span>
                                         <span className='item'>{item.institution}</span>
                                         <span className='item'>{item.location}</span>
@@ -182,21 +179,21 @@ export const CV = ( cvData : CvDataModel) => {
               <Col className='cv-heading' sm='8'>
                 <h4><span> Selected Juried Exhibitions </span></h4>
               </Col>
-              <Col className='cv-body' lg='12'>
+              <Col lg='12'>
                 <Row>
                   {
                     cvData.cv.juriedExhibitions && cvData.cv.juriedExhibitions.map((item, index: number) => {
                       return(
                         <div>
-                          <Row className='item' key={index}>
+                          <Row className='item space' key={index}>
                             <Col className='year' sm='2'>{item.year}</Col>
-                            <Col className='exhibition-info'>
+                            <Col className='info'>
                               <Row>
                                 { item.exhibitions && item.exhibitions.map((item, index) => {
                                   const className = cx({ item: item.gallery});
                                   return(
-                                    <div key={index} className='exhibition-container'>
-                                      <span className='title item'>{item.title}</span>
+                                    <div key={index} className='container'>
+                                      <span className='bold item'>{item.title}</span>
                                       <span className={className}>{item.gallery}</span>
                                       <span className='item'>{item.institution}</span>
                                       <span className='item'>{item.location}</span>

@@ -11,6 +11,7 @@ export interface Images {
 };
 
 export interface Image {
+  id: string,
   image: string,
   page: string
 };

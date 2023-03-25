@@ -1,16 +1,10 @@
-
-.cv {
-  z-index: 2;
+.cv-header {
+  padding-left: 2rem;
 }
 
 .cv-item {
-  padding: 1rem;
-  z-index: 3;
-  display: flex;
-}
-
-.cv-header {
-padding-left: 2rem;
+  padding-left: 2rem;
+  padding-bottom: .5rem;
 }
 
 .item {
@@ -18,43 +12,21 @@ padding-left: 2rem;
   padding-right: .5rem;
 }
 
-.info {
-  padding-left: 3rem;
-}
-
-.university {
-  font-weight: bold;
-}
-
-.honors{
-  padding-left: .5rem;
-}
-
-.role {
-  font-weight: bold;
-  padding-right: .5rem;
-}
-
-.institution-info {
+.space {
   padding-bottom: .5rem;
 }
 
-.institution-container {
+.bold {
+  font-weight: bold;
+}
+
+.indent {
+  padding-left:2rem;
+}
+
+.container {
   display: flex;
   flex-flow: row wrap;
-}
-
-.exhibition-info {
-  padding-bottom: .5rem;
-}
-
-.exhibition-container {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.gallery {
-  padding-right: .5rem;
 }
 
 .pdf {
@@ -65,44 +37,19 @@ padding-left: 2rem;
 }
 
 .pdf-icon {
-  color: white;
+  color: black;
   z-index: 3;
 }
 
-.title {
-  font-weight: bold;
-  padding-right: .5rem;
-}
-
-.institution {
-  padding-right: .5rem;
-}
-
 @media screen and (max-width: 600px) {
-  .institution-info {
+
+  .cv-heading {
     padding-left: 1rem;
   }
 
-  .institution-container {
+  .container {
     display: flex;
     flex-flow: column wrap;
-  }
-
-  .exhibition-container {
-    display: flex;
-    flex-flow: column wrap;
-  }
-
-  .university {
-    padding-left: .5rem;
-  }
-
-  .role {
-    padding-left: .5rem;
-  }
-
-  .institution {
-    padding-left: .5rem;
   }
 
   .item {
