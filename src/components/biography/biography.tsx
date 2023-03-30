@@ -35,4 +35,3 @@ export const Biography = () => {
   );
 }
 
-export default Biography;

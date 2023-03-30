@@ -1,22 +1,21 @@
-.profligacy-header{
+.header{
   margin-left: 2rem;
 }
 
-.profligacy-image {
+.image {
   height: 400px;
   width: auto;
   margin: 1rem;
   border-radius: .2rem;
 }
 
-.profligacy-model-image {
-  height: 800px;
-  width: auto;
+.modal-image {
+
   margin: .2rem;
   border-radius: .2rem;
 }
 
-.profligacy-image-container {
+.image-container {
   align-items: center;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -29,7 +28,7 @@
 
 @media screen and (max-width: 575px) {
 
-  .profligacy-model-image {
+  .modal-image {
     height: 300px;
     width: auto;
     margin: .2rem;

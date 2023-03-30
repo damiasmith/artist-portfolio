@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Shop() {
+export const Shop = () => {
   return (
     <div className='Shop'>
       <header className='Shop-header'>
@@ -9,5 +9,3 @@ function Shop() {
     </div>
   );
 }
-
-export default Shop;

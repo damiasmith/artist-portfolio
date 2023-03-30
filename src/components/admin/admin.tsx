@@ -1,7 +1,7 @@
 import React from 'react';
 import './admin.css';
 
-function Admin() {
+export const Admin = () => {
   return (
     <div className='Admin'>
       <header className='Admin-header'>
@@ -10,5 +10,3 @@ function Admin() {
     </div>
   );
 }
-
-export default Admin;

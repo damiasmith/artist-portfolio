@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal'; import { Image } from '../../../models/images.model';
 import Col from 'react-bootstrap/Col';
 import '../portfolio-image.css';
-import { profligacyImage } from '../../../portfolioData';
+import { excessiveImage } from '../../../portfolioData';
 const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 
-export const Profligacy = () => {
+export const Excessive = () => {
   let image: Image | undefined;
   const [show, setShow] = useState(false);
   const [id, setId] = useState(null);
-  const getImage = (id: any) => profligacyImage.imageList?.filter(image => image.id === id)[0];
+  const getImage = (id: any) => excessiveImage.imageList?.filter(image => image.id === id)[0];
 
   return (
     <>
       <div className='header'>
-        <h5>Profligacy</h5>
+        <h5>Excessive</h5>
       </div>
       <div className='image-container'>
         {
-          profligacyImage.imageList?.map((item: Image) => (
+          excessiveImage.imageList?.map((item: Image) => (
             <div key={item.id}>
               <img src={`${s3}/${item.image}.jpg`} className='image' alt={`${item.image}`} height='600' onClick={() => { setShow(true); setId(item.id as any) }} />
             </div>
@@ -28,7 +28,7 @@ export const Profligacy = () => {
           <Modal
             show={show}
             onHide={() => setShow(false)}
-            dialogClassName='modal-150w'
+            dialogClassName='modal-90w'
             aria-labelledby='example-custom-modal-styling-title'
           >
             <Modal.Body>

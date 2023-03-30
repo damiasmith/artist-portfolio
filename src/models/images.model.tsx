@@ -1,19 +1,26 @@
-// import IconProp from '@fortawesome/fontawesome-common-types';
 
 export interface Images {  
-  imageList?: Image[],
-  imageListData?: {
-    title: string,
-    date: string,
-    description: string,
-    media: string
-  }
+  imageList?: Image[]
+};
+
+export interface ThumbnailImages {  
+  imageList?: ThumbnailImage[]
+};
+
+export interface ThumbnailImage {
+  id: string,
+  image: string,
+  page: string
 };
 
 export interface Image {
   id: string,
   image: string,
-  page: string
+  title: string,
+  year: string,
+  dimensions: string,
+  media: string,
+  description?: string
 };
 
 
