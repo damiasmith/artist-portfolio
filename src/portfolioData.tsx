@@ -2,24 +2,24 @@ import { Images, ThumbnailImages } from './models/images.model';
 
 export const thumbnailImage: ThumbnailImages = {
   imageList: [
-    { id: '1', image: 'decorative_thumbnail', page: 'decorative' },
-    { id: '2', image: 'profligacy_thumbnail', page: 'profligacy' },
-    { id: '3', image: 'expectations_thumbnail', page: 'expectations' },
-    { id: '4', image: 'excessive_thumbnail', page: 'excessive' },
-    { id: '5', image: 'self-fulfilling_prophecy_detail_thumbnail', page: 'self.fulfilling.prophecy' },
-    { id: '6', image: 'wild_seeds_thumbnail', page: 'wild.seeds' },
-    { id: '7', image: 'equality_thumbnail', page: 'equality' },
-    { id: '8', image: 'chain_reaction_thumbnail', page: 'chain.reaction' },
-    { id: '9', image: 'burdensome', page: 'burdensome' },
-    { id: '10', image: 'the_weight_of_an_object_toms_thumbnail', page: 'the.weight.of.an.object' },
-    { id: '11', image: 'projection_identification_empathy_thumbnail', page: 'projection.identificaiton.empathy' },
-    { id: '12', image: 'hands_tied_thumbnail', page: 'hands.tied' },
-    { id: '13', image: 'onus_thumbnail', page: 'onus' },
-    { id: '14', image: 'osteoderm_thumbnail', page: 'osteoderm' },
-    { id: '15', image: 'phalangeal_thelodonts_thumbnail', page: 'phalangeal.thelodonts' },
-    { id: '16', image: 'defense_mechanism_thumbnail', page: 'defense.mechanism' },
-    { id: '17', image: 'epithelial_neoplasms_body_thumbnail', page: 'epithelial.neoplasms' },
-    { id: '18', image: 'apothecia_body_thumbnail', page: 'apothecia' }
+    { id: '1', image: 'decorative_thumbnail', page: 'decorative', function: 'Decorative' },
+    { id: '2', image: 'profligacy_thumbnail', page: 'profligacy', function: 'Profligacy' },
+    { id: '3', image: 'expectations_thumbnail', page: 'expectations', function: 'Expectations' },
+    { id: '4', image: 'excessive_thumbnail', page: 'excessive', function: 'Excessive' },
+    { id: '5', image: 'self-fulfilling_prophecy_detail_thumbnail', page: 'self.fulfilling.prophecy', function: 'SelfFulfillingProphecy' },
+    { id: '6', image: 'wild_seeds_thumbnail', page: 'wild.seeds', function: 'WildSeeds' },
+    { id: '7', image: 'equality_thumbnail', page: 'equality', function: 'Equality' },
+    { id: '8', image: 'chain_reaction_thumbnail', page: 'chain.reaction', function: 'ChainReaction' },
+    { id: '9', image: 'burdensome', page: 'burdensome', function: 'Burdensome' },
+    { id: '10', image: 'the_weight_of_an_object_toms_thumbnail', page: 'the.weight.of.an.object', function: 'TheWeightOfAnObject' },
+    { id: '11', image: 'projection_identification_empathy_thumbnail', page: 'projection.identification.empathy', function: 'ProjectionIdentificationEmpathy' },
+    { id: '12', image: 'hands_tied_thumbnail', page: 'hands.tied', function: 'HandsTied' },
+    { id: '13', image: 'onus_thumbnail', page: 'onus', function: 'Onus' },
+    { id: '14', image: 'osteoderm_thumbnail', page: 'osteoderm', function: 'Ostederm' },
+    { id: '15', image: 'phalangeal_thelodonts_thumbnail', page: 'phalangeal.thelodonts', function: 'phalangealThelodonts' },
+    { id: '16', image: 'defense_mechanism_thumbnail', page: 'defense.mechanism', function: 'DefenseMechanism' },
+    { id: '17', image: 'epithelial_neoplasms_body_thumbnail', page: 'epithelial.neoplasms', function: 'EpithelialNeoplasms' },
+    { id: '18', image: 'apothecia_body_thumbnail', page: 'apothecia', function: 'Apothecia' }
   ]
 };
 
@@ -201,6 +201,7 @@ export const chainReactionImage: Images = {
 };
 
 export const theWeightOfAnObjectImage: Images = {
+  title: 'The Weight of an Object',
   imageList: [
     {
       id: '38',

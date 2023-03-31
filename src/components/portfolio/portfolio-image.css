@@ -3,14 +3,20 @@
 }
 
 .image {
-  height: 400px;
+  max-height: 400px;
+  height: auto;
   width: auto;
+  max-width: 400px;
   margin: 1rem;
   border-radius: .2rem;
 }
 
 .modal-image {
-
+  max-height: 40rem;
+  height: auto;
+  width: auto;
+  max-width: 45rem;
+  min-width: 19rem;
   margin: .2rem;
   border-radius: .2rem;
 }
@@ -26,11 +32,71 @@
   flex-wrap: wrap
 }
 
-@media screen and (max-width: 575px) {
+.modal-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.modal-90w {
+  width: auto;
+  max-width: 47rem;
+  min-width: 20rem;
+}
+
+@media screen and (max-width: 750px) {
+
+  .image {
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    margin: .5rem;
+    border-radius: .2rem;
+  }
 
   .modal-image {
-    height: 300px;
+    max-height: 500px;
+    height: auto;
     width: auto;
+    max-width: 500px;
+    margin: .5rem;
+    border-radius: .2rem;
+  }
+
+  .modal-90w {
+    max-height: 550px;
+    height: auto;
+    width: auto;
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .modal-image {
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    margin: .5rem;
+    border-radius: .2rem;
+  }
+
+  .modal-90w {
+    max-height: 420px;
+    height: auto;
+    width: auto;
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .modal-image {
+    max-height: 450px;
+    height: auto;
+    width: auto;
+    max-width: 300px;
     margin: .2rem;
     border-radius: .2rem;
   }

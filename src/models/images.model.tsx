@@ -1,5 +1,6 @@
 
-export interface Images {  
+export interface Images { 
+  title?: string
   imageList?: Image[]
 };
 
@@ -10,7 +11,8 @@ export interface ThumbnailImages {
 export interface ThumbnailImage {
   id: string,
   image: string,
-  page: string
+  page: string,
+  function: string
 };
 
 export interface Image {
