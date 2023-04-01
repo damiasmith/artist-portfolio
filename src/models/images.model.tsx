@@ -17,7 +17,8 @@ export interface ThumbnailImage {
 
 export interface Image {
   id: string,
-  image: string,
+  image?: string,
+  video?: string,
   title: string,
   year: string,
   dimensions: string,

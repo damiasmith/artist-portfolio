@@ -24,6 +24,7 @@ export const thumbnailImage: ThumbnailImages = {
 };
 
 export const profligacyImage: Images = {
+  title: 'Profligacy',
   imageList: [
     {
       id: '21',
@@ -46,6 +47,7 @@ export const profligacyImage: Images = {
 };
 
 export const decorativeImage: Images = {
+  title: 'Decorative',
   imageList: [
     {
       id: '23',
@@ -67,10 +69,11 @@ export const decorativeImage: Images = {
 };
 
 export const expectationsImage: Images = {
+  title: 'Expectations',
   imageList: [
     {
       id: '25',
-      image: 'expectations',
+      image: 'expectations_body',
       title: 'Expectations',
       media: 'found fabric, fiber fill',
       year: '2017',
@@ -78,7 +81,7 @@ export const expectationsImage: Images = {
     },
     {
       id: '26',
-      image: 'expectations_body',
+      image: 'expectations',
       title: 'Expectations',
       media: 'found fabric, fiber fill',
       year: '2017',
@@ -88,10 +91,11 @@ export const expectationsImage: Images = {
 };
 
 export const excessiveImage: Images = {
+  title: 'Excessive',
   imageList: [
     {
       id: '27',
-      image: 'excessive',
+      image: 'excessive_body',
       title: 'Excessive',
       media: 'ceramic',
       year: '2017',
@@ -99,7 +103,7 @@ export const excessiveImage: Images = {
     },
     {
       id: '28',
-      image: 'excessive_body',
+      image: 'excessive',
       title: 'Excessive',
       media: 'ceramic',
       year: '2017',
@@ -109,6 +113,7 @@ export const excessiveImage: Images = {
 };
 
 export const selfFulfillingProphecyImage: Images = {
+  title: 'Self-fulfilling Prophecy',
   imageList: [
     {
       id: '29',
@@ -138,6 +143,7 @@ export const selfFulfillingProphecyImage: Images = {
 };
 
 export const wildSeedsImage: Images = {
+  title: 'Wild Seeds',
   imageList: [
     {
       id: '32',
@@ -159,6 +165,7 @@ export const wildSeedsImage: Images = {
 };
 
 export const equalityImage: Images = {
+  title: 'Equality',
   imageList: [
     {
       id: '34',
@@ -180,6 +187,7 @@ export const equalityImage: Images = {
 };
 
 export const chainReactionImage: Images = {
+  title: 'Chain Reaction',
   imageList: [
     {
       id: '36',
@@ -250,11 +258,44 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'"
+    },
+    {
+      id: '72',
+      video: 'https://player.vimeo.com/video/130648404?h=2ac76ecc2b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'The Weight of an Object: TOMs',
+      media: 'multimedia: acrylic, steel, found objects, video',
+      year: '2015',
+      dimensions: "6' x 9' x 5'"
+    },
+    {
+      id: '73',
+      video: 'https://player.vimeo.com/video/124864282?h=5e698d6a96&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'The Weight of an Object: iPhone',
+      media: 'multimedia: acrylic, steel, found objects, video',
+      year: '2015',
+      dimensions: "6' x 9' x 5'"
+    },
+    {
+      id: '74',
+      video: 'https://player.vimeo.com/video/126531890?h=90578f89c8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'The Weight of an Object: TOMs',
+      media: 'multimedia: acrylic, steel, found objects, video',
+      year: '2015',
+      dimensions: "6' x 9' x 5'"
+    },
+    {
+      id: '75',
+      video: 'https://player.vimeo.com/video/130635171?h=af69d6b35d&;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'The Weight of an Object: TOMs',
+      media: 'multimedia: acrylic, steel, found objects, video',
+      year: '2015',
+      dimensions: "6' x 9' x 5'"
     }
   ]
 };
 
 export const projectionIdentificationEmpathyImage: Images = {
+  title: 'projection...identification...empathy',
   imageList: [
     {
       id: '44',
@@ -314,7 +355,7 @@ export const projectionIdentificationEmpathyImage: Images = {
     },
     {
       id: '51',
-      image: 'projection...identification...empathy_gallery_outside',
+      image: 'projection...identification...empathy_outside',
       title: 'projection...identification...empathy',
       media: 'multimedia: wool, stainless steel, found objects, video',
       year: '2013',
@@ -327,11 +368,52 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'stainless steel, wool, silicone, aluminum, leather',
       year: '2013',
       dimensions: "5' x 2' x 2'"
+    },
+    {
+      id: '76',
+      video: 'https://player.vimeo.com/video/78472420?h=7d87904df4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'Exasperation',
+      media: 'stainless steel, wool, plastic, leather',
+      year: '2013',
+      dimensions: "5’ x 2’ x 2’"
+    },
+    {
+      id: '77',
+      video: 'https://player.vimeo.com/video/78472421?h=bb8fb45334&amp;;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'Self-Incarceration',
+      media: 'stainless steel, wool, plastic, silicone, leather',
+      year: '2013',
+      dimensions: "7’ x 2.5’ x 2.5’"
+    },
+    {
+      id: '78',
+      video: 'https://player.vimeo.com/video/77461933?h=901a422bf9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'Chagrin',
+      media: 'stainless steel, wool, silicone, aluminum, leather',
+      year: '2013',
+      dimensions: "5' x 2' x 2'"
+    },
+    {
+      id: '79',
+      video: 'https://player.vimeo.com/video/78472420?h=7d87904df4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'Codependency',
+      media: 'stainless steel, wool, plastic, leather',
+      year: '2013',
+      dimensions: "2’ x 7’ x 2’"
+    },
+    {
+      id: '80',
+      video: 'https://player.vimeo.com/video/112092571?h=28da9604ec&;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'Exasperation',
+      media: 'stainless steel, wool, plastic, leather',
+      year: '2013',
+      dimensions: "5’ x 2’ x 2’"
     }
   ]
 };
 
 export const handsTiedImage: Images = {
+  title: 'Hands Tied',
   imageList: [
     {
       id: '53',
@@ -345,6 +427,7 @@ export const handsTiedImage: Images = {
 };
 
 export const onusImage: Images = {
+  title: 'Onus',
   imageList: [
     {
       id: '55',
@@ -366,6 +449,7 @@ export const onusImage: Images = {
 };
 
 export const osteodermImage: Images = {
+  title: 'Osteoderm',
   imageList: [
     {
       id: '57',
@@ -387,6 +471,7 @@ export const osteodermImage: Images = {
 };
 
 export const phalangealThelodontsImage: Images = {
+  title: 'Phalangeal Thelodonts',
   imageList: [
     {
       id: '59',
@@ -398,7 +483,7 @@ export const phalangealThelodontsImage: Images = {
     },
     {
       id: '60',
-      image: 'phalangeal_thelodonts_body',
+      image: 'phalangeal_thelodonts_detail',
       title: 'Phalangeal Thelodonts',
       media: 'steel, waxed linen',
       year: '2011',
@@ -408,6 +493,7 @@ export const phalangealThelodontsImage: Images = {
 };
 
 export const defenseMechanismImage: Images = {
+  title: 'Defense Mechanism',
   imageList: [
     {
       id: '61',
@@ -419,7 +505,7 @@ export const defenseMechanismImage: Images = {
     },
     {
       id: '62',
-      image: 'defense_mechanism_body',
+      image: 'defense_mechanism_body_palm',
       title: 'Defense Mechanism',
       media: 'anodized aluminum, steel',
       year: '2011',
@@ -427,7 +513,7 @@ export const defenseMechanismImage: Images = {
     },
     {
       id: '63',
-      image: 'defense_mechanism_body_palm',
+      image: 'defense_mechanism_body',
       title: 'Defense Mechanism',
       media: 'anodized aluminum, steel',
       year: '2011',
@@ -437,6 +523,7 @@ export const defenseMechanismImage: Images = {
 };
 
 export const epithelialNeoplasmsImage: Images = {
+  title: 'Epithelial Neoplasms',
   imageList: [
     {
       id: '64',
@@ -466,6 +553,7 @@ export const epithelialNeoplasmsImage: Images = {
 };
 
 export const apotheciaImage: Images = {
+  title: 'Apothecia',
   imageList: [
     {
       id: '67',
@@ -487,6 +575,7 @@ export const apotheciaImage: Images = {
 };
 
 export const burdensomeImage: Images = {
+  title: 'Burdensome',
   imageList: [
     {
       id: '69',
@@ -499,6 +588,14 @@ export const burdensomeImage: Images = {
     {
       id: '70',
       image: 'burdensome',
+      title: 'Burdensome',
+      media: 'performance, video, sculpture: steel, plastic',
+      year: '2016',
+      dimensions: '37" x 22" x 16"'
+    },
+    {
+      id: '71',
+      video: 'https://player.vimeo.com/video/229367054?h=eb8f3a0e88&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
       title: 'Burdensome',
       media: 'performance, video, sculpture: steel, plastic',
       year: '2016',

@@ -5,12 +5,39 @@ import Col from 'react-bootstrap/Col';
 import './portfolio-image.css';
 const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 
+const ImageOrVideo = (item: Image, setShow: React.Dispatch<React.SetStateAction<boolean>>, setId: React.Dispatch<React.SetStateAction<null>>) => {
+  if (item.video) {
+    return  (           
+      <div className='image'>
+        <div >
+          <iframe 
+            src={item.video}
+            allow='autoplay; fullscreen; picture-in-picture'
+            title={item.title}
+            width='600'
+            className='video'>
+          </iframe>
+        </div>
+        <script 
+          src='https://player.vimeo.com/api/player.js'>
+        </script>
+      </div>
+    )
+  } else {
+    return (           
+      <div key={item.id}>
+        <img src={`${s3}/${item.image}.jpg`} className='image' alt={`${item.image}`} height='600' onClick={() => { setShow(true); setId(item.id as any) }} />
+      </div>
+    )
+  }
+}
+
 export const PortfolioImage = (portfolioImage: Images) => {
   let image: Image | undefined;
   const [show, setShow] = useState(false);
   const [id, setId] = useState(null);
   const getImage = (id: any) => portfolioImage.imageList?.filter(image => image.id === id)[0];
-
+  
   return (
     <>
       <div className='header'>
@@ -19,9 +46,7 @@ export const PortfolioImage = (portfolioImage: Images) => {
       <div className='image-container'>
         {
           portfolioImage.imageList?.map((item: Image) => (
-            <div key={item.id}>
-              <img src={`${s3}/${item.image}.jpg`} className='image' alt={`${item.image}`} height='600' onClick={() => { setShow(true); setId(item.id as any) }} />
-            </div>
+            ImageOrVideo(item, setShow, setId)
           ))
         }
       </div>
@@ -33,7 +58,7 @@ export const PortfolioImage = (portfolioImage: Images) => {
           aria-labelledby='example-custom-modal-styling-title'
         >
           <Modal.Body className='modal-container'>
-            <div >
+            <div>
               <img src={`${s3}/${getImage(id)?.image}.jpg`} className='modal-image img-fluid' alt={`${getImage(id)?.image}`} height='600' />
             </div>
           </Modal.Body>
@@ -50,3 +75,4 @@ export const PortfolioImage = (portfolioImage: Images) => {
     </>
   );
 }
+
