@@ -44,7 +44,7 @@
 
 .modal-container {
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   display: flex;
 }
 
@@ -99,4 +99,12 @@
     max-width: 300px;
     margin: .2rem;
   }
+
+  /* .image-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  } */
 }

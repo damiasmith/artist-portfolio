@@ -18,3 +18,17 @@
   justify-content: space-between;
   flex-wrap: wrap
 }
+
+
+@media screen and (max-width: 420px) {
+  .modal-image {
+    max-height: 450px;
+    max-width: 300px;
+    margin: .2rem;
+  }
+
+  .portfolio-image-container {
+    justify-content: center;
+    margin: 0;
+  }
+}
