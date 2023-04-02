@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Login() {
+export const Login = () => {
   return (
-    <div className="Login">
-      <header className="Login-header">
+    <div className='Login'>
+      <header className='Login-header'>
         Login
       </header>
     </div>

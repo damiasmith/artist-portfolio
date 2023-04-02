@@ -7,7 +7,7 @@ import { cvData } from './cvData';
 export const App = () => {
   return (
     <div>
-      <MainContainer {...cvData} />
+      <MainContainer {...cvData}/>
     </div>
   );
 }

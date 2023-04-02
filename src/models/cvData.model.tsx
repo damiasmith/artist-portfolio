@@ -1,15 +1,10 @@
-import IconDefinition from '@fortawesome/fontawesome-common-types';
+// import IconProp from '@fortawesome/fontawesome-common-types';
 
 export  interface CvDataModel {  
   name?: string,
   role?: string,
   roleDescription?: string,
-  socialLinks?: 
-    { 
-      name: string, 
-      url: string, 
-      className: any
-    } [], 
+  socialLinks: SocialLinksModel[], 
   aboutme?: string,
   email?: string,
   address?: string,
@@ -36,11 +31,43 @@ export interface CvModel {
         classes: string[],
       } [],
     soloExhibitions?: 
+      {
+        year: string,
+        exhibitions: Exhibition[],
+      }[]
+    groupExhibitions?: 
+      {
+        year: string,
+        exhibitions: Exhibition[],
+      }[]
+    juriedExhibitions?: 
+      {
+        year: string,
+        exhibitions: Exhibition[],
+      }[]
+    grants?: 
       {} [],
-    portfolio?: 
-      {} []
-    
+    awards?: 
+      {} [],
+  
 };
+
+export interface SocialLinksModel {
+  name: string, 
+  url: string, 
+  className: any
+} 
+
+export interface Exhibition {
+    title: string,
+    gallery?: string,
+    institution?: string,
+    location: string
+}
+
+export interface FooterLinks {
+  socialLinks: SocialLinksModel[]
+} 
 
 
 
