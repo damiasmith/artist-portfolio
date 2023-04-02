@@ -28,6 +28,10 @@ a.heading.nav-link:focus {
   color: grey;
 }
 
+a.nav-link:hover {
+  color: grey;
+}
+
 a.nav-link:focus {
   color: grey;
 }
