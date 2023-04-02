@@ -7,9 +7,9 @@ const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 
 export const Biography = () => {
   return (
-    <div className='bio-item'>
+    <div>
       <header className='bio-header'> 
-        <h3>Biography</h3>
+        <h4>Biography</h4>
       </header>
       <div className='bio-container'>
         <div className='bio-body'>
@@ -17,7 +17,7 @@ export const Biography = () => {
             biography.paragraph && biography.paragraph.map((item, index: number) => {
               return(
                 <div>
-                  <Row className='bio-item' key={index}>
+                  <Row key={index}>
                      <Col>
                      <p>{item}</p>
                      </Col>

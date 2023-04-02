@@ -13,7 +13,7 @@ export const CV = (cvData: CvDataModel) => {
   return (
     <section>
       <header className='cv-header'>
-        <h3>Curriculum Vitae</h3>
+        <h4>Curriculum Vitae</h4>
       </header>
       <div className='pdf'>
         <div>

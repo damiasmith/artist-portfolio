@@ -4,16 +4,16 @@ import {
   faLinkedin,
   faGithub,
   faYoutube,
-  faInstagram,
+  // faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
 export const footerLinks: { socialLinks: SocialLinksModel[] } = {
   socialLinks: [
-    {
-      name: 'instagram',
-      url: 'https://www.instagram.com/damia.smith/',
-      className: faInstagram,
-    },
+    // {
+    //   name: 'instagram',
+    //   url: 'https://www.instagram.com/damia.smith/',
+    //   className: faInstagram,
+    // },
     {
       name: 'youtube',
       url: 'https://www.youtube.com/channel/UCLmE8SX9smcZrFMVTyDKm1g',

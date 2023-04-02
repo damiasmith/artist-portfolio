@@ -2,6 +2,11 @@
   padding-left: 2rem;
 }
 
+.cv-heading {
+  font-family: 'Gelasio', serif;
+  font-weight: bold;
+}
+
 .cv-item {
   padding-left: 2rem;
   padding-bottom: .5rem;

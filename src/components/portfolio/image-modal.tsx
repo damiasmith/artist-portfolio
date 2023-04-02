@@ -8,13 +8,13 @@ const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 const ImageOrVideo = (item: Image, setShow: React.Dispatch<React.SetStateAction<boolean>>, setId: React.Dispatch<React.SetStateAction<null>>) => {
   if (item.video) {
     return  (           
-      <div className='image'>
-        <div >
+      <div className='video-container'>
+        <div>
           <iframe 
             src={item.video}
             allow='autoplay; fullscreen; picture-in-picture'
             title={item.title}
-            width='600'
+            // width='600'
             className='video'>
           </iframe>
         </div>
