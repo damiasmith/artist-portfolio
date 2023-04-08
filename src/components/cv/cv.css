@@ -1,15 +1,27 @@
 .cv-header {
   padding-left: 2rem;
+  font-size: 4rem;
 }
 
 .cv-heading {
   font-family: 'Gelasio', serif;
   font-weight: bold;
+  font-size: 3.6rem;
+}
+
+.cv-container {
+  display: flex;
+}
+
+.cv-body {
+  display: flex;
+  flex-direction: column;
 }
 
 .cv-item {
-  padding-left: 2rem;
+  padding-left: 10rem;
   padding-bottom: .5rem;
+  font-size: 3rem;
 }
 
 .item {
@@ -26,7 +38,7 @@
 }
 
 .indent {
-  padding-left:2rem;
+  padding-left: 2rem;
 }
 
 .container {
@@ -39,11 +51,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 4rem;
 }
 
 .pdf-icon {
   color: black;
   z-index: 3;
+}
+
+@media screen and (max-width: 2000px) {
+  .cv-header {
+    font-size: 2rem;
+  }
+  
+  .cv-heading {
+    font-size: 1.8rem;
+  }
+
+  .cv-item {
+    font-size: 1.5rem;
+  }
+
+  .pdf {
+    font-size: 2rem;
+  }
+
 }
 
 @media screen and (max-width: 600px) {

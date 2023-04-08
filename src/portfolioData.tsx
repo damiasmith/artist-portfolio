@@ -303,7 +303,7 @@ export const projectionIdentificationEmpathyImage: Images = {
       title: 'Codependency',
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
-      dimensions: "2’ x 7’ x 2’"
+      dimensions: "2' x 7' x 2'"
     },
     {
       id: '45',
@@ -311,7 +311,7 @@ export const projectionIdentificationEmpathyImage: Images = {
       title: 'Self-incarceration',
       media: 'stainless steel, wool, plastic, silicone, leather',
       year: '2013',
-      dimensions: "7’ x 2.5’ x 2.5’"
+      dimensions: "7' x 2.5' x 2.5'"
     },
     {
       id: '46',
@@ -319,7 +319,7 @@ export const projectionIdentificationEmpathyImage: Images = {
       title: 'Chagrin',
       media: 'stainless steel, wool, silicone, aluminum, leather',
       year: '2013',
-      dimensions: "5’ x 2’ x 2’"
+      dimensions: "5' x 2' x 2'"
     },
     {
       id: '47',
@@ -327,7 +327,7 @@ export const projectionIdentificationEmpathyImage: Images = {
       title: 'Exasperation',
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
-      dimensions: "5’ x 2’ x 2’"
+      dimensions: "5' x 2' x 2'"
     },
     {
       id: '48',
@@ -335,7 +335,7 @@ export const projectionIdentificationEmpathyImage: Images = {
       title: 'Exasperation',
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
-      dimensions: "5’ x 2’ x 2’"
+      dimensions: "5' x 2' x 2'"
     },
     {
       id: '49',
@@ -371,19 +371,19 @@ export const projectionIdentificationEmpathyImage: Images = {
     },
     {
       id: '76',
-      video: 'https://player.vimeo.com/video/78472420?h=7d87904df4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-      title: 'Exasperation',
-      media: 'stainless steel, wool, plastic, leather',
+      video: 'https://player.vimeo.com/video/77461932?h=d797da9ed2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      title: 'Self-Incarceration',
+      media: 'stainless steel, wool, plastic, silicone, leather',
       year: '2013',
-      dimensions: "5’ x 2’ x 2’"
+      dimensions: "7' x 2.5' x 2.5'"
     },
     {
       id: '77',
       video: 'https://player.vimeo.com/video/78472421?h=bb8fb45334&amp;;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-      title: 'Self-Incarceration',
-      media: 'stainless steel, wool, plastic, silicone, leather',
+      title: 'Codependency',
+      media: 'stainless steel, wool, plastic, leather',
       year: '2013',
-      dimensions: "7’ x 2.5’ x 2.5’"
+      dimensions: "2' x 7' x 2'"
     },
     {
       id: '78',
@@ -396,10 +396,10 @@ export const projectionIdentificationEmpathyImage: Images = {
     {
       id: '79',
       video: 'https://player.vimeo.com/video/78472420?h=7d87904df4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-      title: 'Codependency',
+      title: 'Exasperation',
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
-      dimensions: "2’ x 7’ x 2’"
+      dimensions: "5' x 2' x 2'"
     },
     {
       id: '80',
@@ -407,7 +407,7 @@ export const projectionIdentificationEmpathyImage: Images = {
       title: 'Exasperation',
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
-      dimensions: "5’ x 2’ x 2’"
+      dimensions: "5' x 2' x 2'"
     }
   ]
 };

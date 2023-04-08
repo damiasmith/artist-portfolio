@@ -1,30 +1,29 @@
 import React, { useState } from 'react';
-import Modal from 'react-bootstrap/Modal'; 
+import Modal from 'react-bootstrap/Modal';
 import { Image, Images } from '../../models/images.model';
 import Col from 'react-bootstrap/Col';
 import './portfolio-image.css';
 const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 
-const ImageOrVideo = (item: Image, setShow: React.Dispatch<React.SetStateAction<boolean>>, setId: React.Dispatch<React.SetStateAction<null>>) => {
+export const ImageOrVideo = (item: Image, setShow: React.Dispatch<React.SetStateAction<boolean>>, setId: React.Dispatch<React.SetStateAction<null>>) => {
   if (item.video) {
-    return  (           
+    return (
       <div className='video-container'>
         <div>
-          <iframe 
+          <iframe
             src={item.video}
             allow='autoplay; fullscreen; picture-in-picture'
             title={item.title}
-            // width='600'
             className='video'>
           </iframe>
         </div>
-        <script 
+        <script
           src='https://player.vimeo.com/api/player.js'>
         </script>
       </div>
     )
   } else {
-    return (           
+    return (
       <div key={item.id}>
         <img src={`${s3}/${item.image}.jpg`} className='image' alt={`${item.image}`} height='600' onClick={() => { setShow(true); setId(item.id as any) }} />
       </div>
@@ -37,11 +36,11 @@ export const PortfolioImage = (portfolioImage: Images) => {
   const [show, setShow] = useState(false);
   const [id, setId] = useState(null);
   const getImage = (id: any) => portfolioImage.imageList?.filter(image => image.id === id)[0];
-  
+
   return (
     <>
-      <div className='header'>
-        <h5>{portfolioImage.title}</h5>
+      <div>
+        <div className='header'>{portfolioImage.title}</div>
       </div>
       <div className='image-container'>
         {
@@ -62,7 +61,7 @@ export const PortfolioImage = (portfolioImage: Images) => {
               <img src={`${s3}/${getImage(id)?.image}.jpg`} className='modal-image img-fluid' alt={`${getImage(id)?.image}`} height='600' />
             </div>
           </Modal.Body>
-          <Modal.Header closeButton>
+          <Modal.Header className='modal-header' closeButton>
             <Col {...image = getImage(id)}>
               <div>{image?.title}</div>
               <div>{image?.media}</div>
@@ -73,6 +72,6 @@ export const PortfolioImage = (portfolioImage: Images) => {
         </Modal>
       </div>
     </>
-  );
+  )
 }
 

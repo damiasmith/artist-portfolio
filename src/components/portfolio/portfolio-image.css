@@ -1,33 +1,34 @@
 .header{
   margin-left: 2rem;
+  font-size: 4rem;
 }
 
 .image {
-  max-height: 400px;
+  max-height: 1200px;
   height: auto;
   width: auto;
-  max-width: 400px;
+  max-width: 1200px;
   margin: 1rem;
   border-radius: .2rem;
 }
 
 .video {
-  max-height: 400px;
-  max-width: 400px;
-  margin: 1rem;
+  max-height: 1200px;
+  max-width: 1200px;
+  margin: 2rem;
   border-radius: .2rem;
-  position:static;
-  width:400px;
-  height:250px;
+  position: static;
+  width: 1200px;
+  height: 900px;
 }
 
 .modal-image {
-  max-height: 40rem;
+  max-height: 125rem;
   height: auto;
   width: auto;
-  max-width: 45rem;
-  min-width: 19rem;
-  margin: .5rem;
+  max-width: 1130rem;
+  min-width: 25rem;
+  margin: 3rem;
   border-radius: .2rem;
 }
 
@@ -39,7 +40,8 @@
   margin-bottom: 3rem;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .modal-container {
@@ -50,8 +52,143 @@
 
 .modal-90w {
   width: auto;
-  max-width: 47rem;
-  min-width: 20rem;
+  max-width: 130rem;
+  max-height: 135rem;
+}
+
+.modal-header{
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 2900px) {
+  .header{
+    font-size: 4rem;
+  }
+
+  .image {
+    max-height: 1000px;
+    max-width: 1000px;
+  }
+  
+  .video {
+    max-height: 1000px;
+    max-width: 1000px;
+    width: 1000px;
+    height: 700px;
+  }
+
+  .modal-image {
+    max-height: 105rem;
+    max-width: 110rem;
+    min-width: 39rem;
+    margin: 2rem;
+  }
+
+  .modal-90w {
+    max-width: 110rem;
+    max-height: 115rem;
+  }
+
+  .modal-header{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 2400px) {
+  .header{
+    font-size: 3rem;
+  }
+
+  .image {
+    max-height: 800px;
+    max-width: 800px;
+  }
+  
+  .video {
+    max-height: 800px;
+    max-width: 800px;
+    width: 800px;
+    height: 600px;
+  }
+
+  .modal-image {
+    max-height: 80rem;
+    max-width: 85rem;
+    min-width: 39rem;
+    margin: 1rem;
+  }
+
+  .modal-90w {
+    max-width: 85rem;
+    max-height: 90rem;
+  }
+
+  .modal-header{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .header{
+    font-size: 2rem;
+  }
+
+  .image {
+    max-height: 600px;
+    max-width: 600px;
+  }
+  
+  .video {
+    max-height: 600px;
+    max-width: 600px;
+    width: 600px;
+    height: 400px;
+  }
+
+  .modal-image {
+    max-height: 60rem;
+    max-width: 65rem;
+    min-width: 19rem;
+    margin: .05rem;
+  }
+
+  .modal-90w {
+    max-width: 70rem;
+    max-height: 70rem;
+  }
+
+  .modal-header{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header{
+    font-size: 2rem;
+  }
+
+  .image {
+    max-height: 400px;
+    max-width: 400px;
+  }
+  
+  .video {
+    max-height: 400px;
+    max-width: 400px;
+    width: 400px;
+    height: 250px;
+  }
+
+  .modal-image {
+    max-height: 45rem;
+    max-width: 40rem;
+    min-width: 19rem;
+  }
+
+  .modal-90w {
+    max-width: 45rem;
+    max-height: 50rem;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -63,7 +200,7 @@
   }
 
   .modal-image {
-    max-height: 500px;
+    max-height: 800px;
     max-width: 500px;
   }
 
@@ -95,7 +232,6 @@
 
 @media screen and (max-width: 420px) {
   .modal-image {
-    max-height: 450px;
     max-width: 300px;
     margin: .2rem;
   }

@@ -7,15 +7,17 @@
 
 .bio-body {
   padding: 1rem;
-  width: 80%;
+  width: 50%;
+  font-size: 3rem;
 }
 
 .bio-header {
   padding-left: 2rem;
+  font-size: 4rem;
 }
 
 .bio-image {
-  height: 200px;
+  height: 40rem;
   width: auto;
   padding: 1rem;
   border-radius: .3rem;
@@ -26,6 +28,31 @@
   display: flex;
 }
 
+@media screen and (max-width: 2000px) {
+
+  .bio-header {
+    padding-left: 2rem;
+    font-size: 2rem;
+  }
+
+  .bio-image {
+    height: 20rem;
+  }
+
+  .bio-body {
+    padding: 1rem;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .bio-body {
+    padding: 1rem;
+    width: 80%;
+  }
+}
 
 @media screen and (max-width: 775px) {
   .bio-container {
