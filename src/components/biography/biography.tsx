@@ -8,9 +8,6 @@ const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 export const Biography = () => {
   return (
     <div>
-      <header> 
-        <div className='bio-header'>Biography</div>
-      </header>
       <div className='bio-container'>
         <div className='bio-body'>
           {

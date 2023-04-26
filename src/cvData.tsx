@@ -3,7 +3,7 @@ import { CvDataModel, SocialLinksModel } from './models/cvData.model';
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
+  faYoutube
   // faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
@@ -28,7 +28,7 @@ export const footerLinks: { socialLinks: SocialLinksModel[] } = {
       name: 'github',
       url: 'https://github.com/damiasmith',
       className: faGithub,
-    },
+    }
 ]};
 
 export const cvData: CvDataModel = {

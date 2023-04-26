@@ -26,7 +26,7 @@
   max-height: 125rem;
   height: auto;
   width: auto;
-  max-width: 1130rem;
+  max-width: 130rem;
   min-width: 25rem;
   margin: 3rem;
   border-radius: .2rem;
@@ -57,7 +57,7 @@
 }
 
 .modal-header{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 2900px) {
@@ -90,7 +90,7 @@
   }
 
   .modal-header{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -124,7 +124,7 @@
   }
 
   .modal-header{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -158,13 +158,13 @@
   }
 
   .modal-header{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 1400px) {
   .header{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .image {
@@ -192,6 +192,9 @@
 }
 
 @media screen and (max-width: 750px) {
+  .header{
+    font-size: 1rem;
+  }
 
   .image {
     max-height: 300px;
@@ -235,12 +238,4 @@
     max-width: 300px;
     margin: .2rem;
   }
-
-  /* .image-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-  } */
 }

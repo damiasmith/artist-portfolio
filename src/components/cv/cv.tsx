@@ -12,9 +12,6 @@ export const CV = (cvData: CvDataModel) => {
   const cx = classNames.bind({ item: 'item' });
   return (
     <section>
-      <header>
-        <div className='cv-header' >Curriculum Vitae</div>
-      </header>
       <div className='cv-container'>
         <div className='cv-body'>
           <div className='pdf'>

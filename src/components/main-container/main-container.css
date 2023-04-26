@@ -39,7 +39,7 @@ a.nav-link:focus {
 
 a.nav-link {
   color: rgb(54, 53, 53);
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 a.heading.nav-link {
@@ -47,17 +47,16 @@ a.heading.nav-link {
   font-size: 3rem;
 }
 
-
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2800px) {
   .app-container {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   a.nav-link {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
   a.heading.nav-link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 } 
