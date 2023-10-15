@@ -43,9 +43,15 @@ export const EpithelialNeoplasms = () => {
   )
 }
 
-export const Equality = () => {
+export const DreamBig = () => {
   return (
-    PortfolioImage(portfolioData.equalityImage)
+    PortfolioImage(portfolioData.dreamBigImage)
+  )
+}
+
+export const FragileMyths = () => {
+  return (
+    PortfolioImage(portfolioData.fragileMythsImage)
   )
 }
 
