@@ -8,12 +8,12 @@
 .bio-body {
   padding: 1rem;
   width: 50%;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .bio-header {
   padding-left: 2rem;
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 .bio-image {
@@ -26,6 +26,24 @@
 .bio-image-container {
   justify-content: center;
   display: flex;
+}
+
+@media screen and (max-width: 2800px) {
+
+  .bio-header {
+    padding-left: 2rem;
+    font-size: 3.5rem;
+  }
+
+  .bio-image {
+    height: 30rem;
+  }
+
+  .bio-body {
+    padding: 1rem;
+    width: 50%;
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 2000px) {
@@ -55,6 +73,11 @@
 }
 
 @media screen and (max-width: 775px) {
+  .bio-header {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+  }
+
   .bio-container {
     display: flex;
     flex-direction: column-reverse;
@@ -63,6 +86,7 @@
   .bio-body {
     padding: .5rem;
     width: 100%;
+    font-size: 1rem;
   }
 }
 

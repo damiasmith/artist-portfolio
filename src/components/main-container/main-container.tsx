@@ -45,9 +45,9 @@ export const MainContainer = (cvData: CvDataModel) => {
           <Routes>
             
             {/* {
-              thumbnailImage?.imageList.map(( item: ThumbnailImage, index: number ) => 
+              thumbnailImage?.imageList?.map(( item: ThumbnailImage, index: number ) => 
                 Component = portfolio[item.function]
-                <Route path={`/${item.page}`} element={ <[Component] />} />
+                <Route path={`/${item.page}`} element={ <[Component] /> } />
               ))
             } */}
             <Route path='/' element={<Home />} />

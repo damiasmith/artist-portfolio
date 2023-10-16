@@ -1,17 +1,23 @@
 .footer {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
   background-color: rgba(255, 255, 255, 0);
   z-index: 3;
-  overflow: hidden;
   position: fixed;
   bottom: 0;
   min-width: 100%;
-  height: 7rem;
+  height: 5rem;
   margin: 0;
   padding: 0;
+}
+
+.copyright {
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem; right: 1rem;
+  font-size: 2rem;
+}
+
+.copy {
+  display: none
 }
 
 .social-links {
@@ -27,14 +33,59 @@
   backdrop-filter: blur(3px);
   border-radius: 5px;
   opacity: 0.8;
+  font-size: 2rem;
 }
 
 .icon {
   color: rgb(54, 53, 53);
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 2000px) {
+  .social {
+    font-size: 1rem;
+  }
+
   .footer {
     height: 3rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+    position: fixed;
+    bottom: 1rem;
+    text-align: center;
+  }
+
+  .copyright {
+    position: fixed;
+    text-align: center;
+    top: auto;
+    right :auto;
+    left: auto;
+    bottom: 0;
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .copy {
+    display: inline;
   }
 }

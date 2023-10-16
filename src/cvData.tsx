@@ -16,7 +16,7 @@ export const footerLinks: { socialLinks: SocialLinksModel[] } = {
       name: 'github',
       url: 'https://github.com/damiasmith',
       className: faGithub,
-    },
+    }
 ]};
 
 export const cvData: CvDataModel = {
