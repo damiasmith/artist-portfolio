@@ -5,7 +5,7 @@ export const thumbnailImage: ThumbnailImages = {
     { id: '1', image: 'fragile_myths_thumbnail', page: 'fragile.myths', function: 'FragileMyths' },
     { id: '2', image: 'decorative_thumbnail', page: 'decorative', function: 'Decorative' },
     { id: '3', image: 'profligacy_thumbnail', page: 'profligacy', function: 'Profligacy' },
-    { id: '4', image: 'big_dreams_thumbnail', page: 'big.dreams', function: 'BigDreams' },
+    { id: '4', image: 'dream_big_thumbnail', page: 'big.dreams', function: 'BigDreams' },
     { id: '5', image: 'expectations_thumbnail', page: 'expectations', function: 'Expectations' },
     { id: '6', image: 'excessive_thumbnail', page: 'excessive', function: 'Excessive' },
     { id: '7', image: 'self-fulfilling_prophecy_detail_thumbnail', page: 'self.fulfilling.prophecy', function: 'SelfFulfillingProphecy' },
@@ -25,27 +25,27 @@ export const thumbnailImage: ThumbnailImages = {
 };
 
 export const fragileMythsImage: Images = {
-  title: 'Fragile Myths I',
+  title: 'Fragile Myths',
   imageList: [
     {
       id: '21',
-      image: 'fragile_myth_I',
+      image: 'fragile_myths_I',
       title: 'Fragile Myths I',
       media: 'packaging paper, cotton thread, methylcellulose',
       year: '2023',
       dimensions: "4' x 8' x 1'",
       description: 'Sewing construction sculpture of Victorian chandelier earrings'
     },
-    {
-      id: '22',
-      image: 'fragile_myth_I_detail',
-      title: 'Fragile Myths I',
-      media: 'packaging paper, cotton thread, methylcellulose',
-      year: '2023',
-      dimensions: "4' x 8' x 1'",
-      description: 'Sewing construction sculpture of Victorian chandelier earrings'
+    // {
+    //   id: '22',
+    //   image: 'fragile_myth_I_detail',
+    //   title: 'Fragile Myths I',
+    //   media: 'packaging paper, cotton thread, methylcellulose',
+    //   year: '2023',
+    //   dimensions: "4' x 8' x 1'",
+    //   description: 'Sewing construction sculpture of Victorian chandelier earrings'
 
-    }
+    // }
   ]
 };
 

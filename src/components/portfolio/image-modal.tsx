@@ -35,7 +35,7 @@ export const PortfolioImage = (portfolioImage: Images) => {
   let image: Image | undefined;
   const [show, setShow] = useState(false);
   const [id, setId] = useState(null);
-  const getImage = (id: any) => portfolioImage.imageList!.filter(image => image.id === id)[0];
+  const getImage = (id: any) => portfolioImage.imageList?.filter(image => image.id === id)[0];
 
   return (
     <>
@@ -58,16 +58,16 @@ export const PortfolioImage = (portfolioImage: Images) => {
         >
           <Modal.Body className='modal-container'>
             <div>
-              <img src={`${s3}/${getImage(id)!.image}.jpg`} className='modal-image img-fluid' alt={`${getImage(id)!.image}`} height='600' />
+              <img src={`${s3}/${getImage(id)?.image}.jpg`} className='modal-image img-fluid' alt={`${getImage(id)?.image}`} height='600' />
             </div>
           </Modal.Body>
           <Modal.Header className='modal-header' closeButton>
             <Col {...image = getImage(id)}>
-              <div>{image!.title}</div>
-              <div>{image!.media}</div>
-              <div>{image!.year}</div>
-              <div>{image!.dimensions}</div>
-              <div>{image!.description}</div>
+              <div>{image?.title}</div>
+              <div>{image?.media}</div>
+              <div>{image?.year}</div>
+              <div>{image?.dimensions}</div>
+              <div>{image?.description}</div>
             </Col>
           </Modal.Header>
         </Modal>

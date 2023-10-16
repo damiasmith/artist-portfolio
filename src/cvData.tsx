@@ -3,22 +3,10 @@ import { CvDataModel, SocialLinksModel } from './models/cvData.model';
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  // faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
 export const footerLinks: { socialLinks: SocialLinksModel[] } = {
   socialLinks: [
-    // {
-    //   name: 'instagram',
-    //   url: 'https://www.instagram.com/damia.smith/',
-    //   className: faInstagram,
-    // },
-    {
-      name: 'youtube',
-      url: 'https://www.youtube.com/channel/UCLmE8SX9smcZrFMVTyDKm1g',
-      className: faYoutube,
-    },
     {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/damia-smith',
@@ -81,14 +69,14 @@ export const cvData: CvDataModel = {
         role: 'Art Teacher',
         institution: 'Highlands Ranch High School',
         location: 'Highlands Ranch, CO',
-        year: '2015- 2016',
+        year: '2015-2016',
         classes: ['Jewelry I-III', 'Sculpture I-II']
       },
       {
         role: 'Lecturer/ Instructor-of-Record',
         institution: 'University of Kansas',
         location: 'Lawrence, KS',
-        year: '2010-2015',
+        year: '2010-2013, 2014-2015',
         classes: ['ART 123 Fundamentals of Metalsmithing and Jewelry']
       },
     ],
@@ -459,7 +447,7 @@ export const cvData: CvDataModel = {
         ]
       },
       {
-        year: '2009',
+        year: '2008',
         exhibitions: [
           {
             title: 'Form, Fabricate, and Forge',
