@@ -67,15 +67,9 @@ export const Expectations = () => {
   )
 }
 
-export const HandsTied = () => {
+export const BodySculptures = () => {
   return (
-    PortfolioImage(portfolioData.handsTiedImage)
-  )
-}
-
-export const Onus = () => {
-  return (
-    PortfolioImage(portfolioData.onusImage)
+    PortfolioImage(portfolioData.bodySculpturesImage)
   )
 }
 

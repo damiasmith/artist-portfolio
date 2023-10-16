@@ -76,7 +76,7 @@ export const cvData: CvDataModel = {
         role: 'Lecturer/ Instructor-of-Record',
         institution: 'University of Kansas',
         location: 'Lawrence, KS',
-        year: '2010-2013, 2014-2015',
+        year: '2010-2013 2014-2015',
         classes: ['ART 123 Fundamentals of Metalsmithing and Jewelry']
       },
     ],

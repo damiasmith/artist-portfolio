@@ -5,7 +5,7 @@ export const thumbnailImage: ThumbnailImages = {
     { id: '1', image: 'fragile_myths_thumbnail', page: 'fragile.myths', function: 'FragileMyths' },
     { id: '2', image: 'decorative_thumbnail', page: 'decorative', function: 'Decorative' },
     { id: '3', image: 'profligacy_thumbnail', page: 'profligacy', function: 'Profligacy' },
-    { id: '4', image: 'dream_big_thumbnail', page: 'big.dreams', function: 'BigDreams' },
+    { id: '4', image: 'dream_big_thumbnail', page: 'dream.big', function: 'DreamBig' },
     { id: '5', image: 'expectations_thumbnail', page: 'expectations', function: 'Expectations' },
     { id: '6', image: 'excessive_thumbnail', page: 'excessive', function: 'Excessive' },
     { id: '7', image: 'self-fulfilling_prophecy_detail_thumbnail', page: 'self.fulfilling.prophecy', function: 'SelfFulfillingProphecy' },
@@ -14,8 +14,7 @@ export const thumbnailImage: ThumbnailImages = {
     { id: '10', image: 'burdensome', page: 'burdensome', function: 'Burdensome' },
     { id: '11', image: 'the_weight_of_an_object_toms_thumbnail', page: 'the.weight.of.an.object', function: 'TheWeightOfAnObject' },
     { id: '12', image: 'projection_identification_empathy_thumbnail', page: 'projection.identification.empathy', function: 'ProjectionIdentificationEmpathy' },
-    { id: '13', image: 'hands_tied_thumbnail', page: 'hands.tied', function: 'HandsTied' },
-    { id: '14', image: 'onus_thumbnail', page: 'onus', function: 'Onus' },
+    { id: '13', image: 'hands_tied_thumbnail', page: 'body.sculptures', function: 'BodySculptures' },
     { id: '15', image: 'osteoderm_thumbnail', page: 'osteoderm', function: 'Ostederm' },
     { id: '16', image: 'phalangeal_thelodonts_thumbnail', page: 'phalangeal.thelodonts', function: 'phalangealThelodonts' },
     { id: '17', image: 'defense_mechanism_thumbnail', page: 'defense.mechanism', function: 'DefenseMechanism' },
@@ -34,18 +33,17 @@ export const fragileMythsImage: Images = {
       media: 'packaging paper, cotton thread, methylcellulose',
       year: '2023',
       dimensions: "4' x 8' x 1'",
-      description: 'Sewing construction sculpture of Victorian chandelier earrings'
+      description: 'Sewn construction sculpture of Victorian chandelier earrings'
     },
-    // {
-    //   id: '22',
-    //   image: 'fragile_myth_I_detail',
-    //   title: 'Fragile Myths I',
-    //   media: 'packaging paper, cotton thread, methylcellulose',
-    //   year: '2023',
-    //   dimensions: "4' x 8' x 1'",
-    //   description: 'Sewing construction sculpture of Victorian chandelier earrings'
-
-    // }
+    {
+      id: '22',
+      image: 'fragile_myths_I_detail',
+      title: 'Fragile Myths I',
+      media: 'packaging paper, cotton thread, methylcellulose',
+      year: '2023',
+      dimensions: "4' x 8' x 1'",
+      description: 'Sewn construction sculpture of Victorian chandelier earrings'
+    }
   ]
 };
 
@@ -59,7 +57,7 @@ export const profligacyImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2018',
       dimensions: '90" x 52" x 13"',
-      description: 'Sewing construction sculpture of Victorian chandelier earrings'
+      description: 'Sewn construction sculpture of Victorian chandelier earrings'
     },
     {
       id: '24',
@@ -68,7 +66,7 @@ export const profligacyImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2018',
       dimensions: '90" x 52" x 13"',
-      description: 'Sewing construction sculpture of Victorian chandelier earrings'
+      description: 'Sewn construction sculpture of Victorian chandelier earrings'
 
     }
   ]
@@ -84,7 +82,7 @@ export const decorativeImage: Images = {
       media: 'found fabric, fiber fill, steel wire',
       year: '2019',
       dimensions: '51" x 17" x 14"',
-      description: 'Sewing construction apron based on Victorian chandelier earrings'
+      description: 'Sewn construction apron based on Victorian chandelier earrings'
     },
     {
       id: '26',
@@ -93,7 +91,7 @@ export const decorativeImage: Images = {
       media: 'found fabric, fiber fill, steel wire',
       year: '2019',
       dimensions: '51" x 17" x 14"',
-      description: 'Sewing construction apron based on Victorian chandelier earrings'
+      description: 'Sewn construction apron based on Victorian chandelier earrings'
     },
     {
       id: '27',
@@ -102,13 +100,13 @@ export const decorativeImage: Images = {
       media: 'found fabric, fiber fill, steel wire',
       year: '2019',
       dimensions: '51" x 17" x 14"',
-      description: 'Sewing construction apron based on Victorian chandelier earrings'
+      description: 'Sewn construction apron based on Victorian chandelier earrings'
     }
   ]
 };
 
 export const dreamBigImage: Images = {
-  title: 'DreamBig',
+  title: 'Dream Big',
   imageList: [
     {
       id: '28',
@@ -150,7 +148,7 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewing construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring'
     },
     {
       id: '32',
@@ -159,7 +157,7 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewing construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring'
     },
     {
       id: '33',
@@ -168,7 +166,7 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewing construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring'
     },
     {
       id: '34',
@@ -177,7 +175,7 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewing construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring'
     }
   ]
 };
@@ -297,7 +295,7 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to touch the object and pull it out of the display area, but as they do so they will have to tow the entire structure containing the weight of the item’s origins and history.'    
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.'    
     },
     {
       id: '45',
@@ -306,7 +304,7 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to touch the object and pull it out of the display area, but as they do so they will have to tow the entire structure containing the weight of the item’s origins and history.'    
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
     },
     {
       id: '46',
@@ -324,7 +322,7 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to touch the object and pull it out of the display area, but as they do so they will have to tow the entire structure containing the weight of the item’s origins and history.'
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
     },
     {
       id: '48',
@@ -333,7 +331,7 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to touch the object and pull it out of the display area, but as they do so they will have to tow the entire structure containing the weight of the item’s origins and history.'
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
     },
     {
       id: '49',
@@ -342,7 +340,7 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to touch the object and pull it out of the display area, but as they do so they will have to tow the entire structure containing the weight of the item’s origins and history.'
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
     },
     {
       id: '50',
@@ -517,8 +515,8 @@ export const projectionIdentificationEmpathyImage: Images = {
   ]
 };
 
-export const handsTiedImage: Images = {
-  title: 'Hands Tied',
+export const bodySculpturesImage: Images = {
+  title: 'Body Sculptures',
   imageList: [
     {
       id: '68',
@@ -529,12 +527,6 @@ export const handsTiedImage: Images = {
       dimensions: '14" x 38" x 31"',
       description: 'Crocheted cotton dipped in beeswax and woven metal sculpture referencing the human body'
     },
-  ]
-};
-
-export const onusImage: Images = {
-  title: 'Onus',
-  imageList: [
     {
       id: '69',
       image: 'onus',

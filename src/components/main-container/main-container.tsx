@@ -65,8 +65,7 @@ export const MainContainer = (cvData: CvDataModel) => {
             <Route path='/defense.mechanism' element={<portfolio.DefenseMechanism />} />
             <Route path='/epithelial.neoplasms' element={<portfolio.EpithelialNeoplasms />} />
             <Route path='/dream.big' element={<portfolio.DreamBig />} />
-            <Route path='/hands.tied' element={<portfolio.HandsTied />} />
-            <Route path='/onus' element={<portfolio.Onus />} />
+            <Route path='/body.sculptures' element={<portfolio.BodySculptures />} />
             <Route path='/osteoderm' element={<portfolio.Osteoderm />} />
             <Route path='/phalangeal.thelodonts' element={<portfolio.PhalangealThelodonts />} />
             <Route path='/projection.identification.empathy' element={<portfolio.ProjectionIdentificationEmpathy />} />
