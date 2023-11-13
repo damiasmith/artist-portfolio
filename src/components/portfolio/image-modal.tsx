@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { Image, Images } from '../../models/images.model';
 import Col from 'react-bootstrap/Col';
-import './portfolio-image.css';
+import './portfolio.css';
 const s3 = 'https://s3.amazonaws.com/damia.smith.website.images';
 
 export const ImageOrVideo = (item: Image, setShow: React.Dispatch<React.SetStateAction<boolean>>, setId: React.Dispatch<React.SetStateAction<null>>) => {
@@ -25,7 +25,14 @@ export const ImageOrVideo = (item: Image, setShow: React.Dispatch<React.SetState
   } else {
     return (
       <div key={item.id}>
-        <img src={`${s3}/${item.image}.jpg`} className='image' alt={`${item.image}`} height='600' onClick={() => { setShow(true); setId(item.id as any) }} />
+        <img 
+          src={`${s3}/${item.image}.jpg`} 
+          className='image' 
+          alt={`${item.image}`}                     
+          height={item.orientation === 'portrait' ? '300' : 'auto'}
+          width={item.orientation === 'landscape' ? '300' : 'auto'} 
+          onClick={() => { setShow(true); setId(item.id as any) }} 
+        />
       </div>
     )
   }
@@ -58,7 +65,7 @@ export const PortfolioImage = (portfolioImage: Images) => {
         >
           <Modal.Body className='modal-container'>
             <div>
-              <img src={`${s3}/${getImage(id)?.image}.jpg`} className='modal-image img-fluid' alt={`${getImage(id)?.image}`} height='600' />
+              <img src={`${s3}/${getImage(id)?.image}.jpg`} className='modal-image img-fluid' alt={`${getImage(id)?.image}`} width='300' />
             </div>
           </Modal.Body>
           <Modal.Header className='modal-header' closeButton>

@@ -8,13 +8,20 @@ import { Biography } from '../biography/biography';
 import { Portfolio } from '../portfolio/portfolio';
 import * as portfolio from '../portfolio/portfolio-images';
 import { Shop } from '../shop/shop';
+import { TeachingPortfolio } from '../teaching/teaching-portfolio';
 import { Footer } from '../footer/footer';
 import { CvDataModel } from '../../models/cvData.model';
-import { thumbnailImage } from '../../portfolioData';
-import { ThumbnailImage } from '../../models/images.model';
+// import { thumbnailImage } from '../../portfolioData';
+// import { teachingThumbnailImage } from '../../teachingPortfolioData';
+import * as teachingPortfolio from '../teaching/teaching-portfolio-images';
+// import { ThumbnailImage } from '../../models/images.model';
 
 
 export const MainContainer = (cvData: CvDataModel) => {
+//   const component = thumbnailImage?.imageList?.map(( item: ThumbnailImage, index: number, portfolio ) => 
+//   <Route path={`/${item.page}`} element={<portfolio[item.function] /> } />
+// ))
+
   return (
     <div className='app-container'>
       <Router>
@@ -35,6 +42,9 @@ export const MainContainer = (cvData: CvDataModel) => {
               <Nav.Item>
                 <Nav.Link as={Link} to='/biography' className='heading'>Biography</Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link as={Link} to='/teaching' className='heading'>Teaching</Nav.Link>
+              </Nav.Item>
               {/* <Nav.Item>
                   <Nav.Link as={Link} to='/shop' className='heading'>Shop</Nav.Link>
                 </Nav.Item> */}
@@ -45,11 +55,11 @@ export const MainContainer = (cvData: CvDataModel) => {
           <Routes>
             
             {/* {
-              thumbnailImage?.imageList?.map(( item: ThumbnailImage, index: number ) => 
-                Component = portfolio[item.function]
-                <Route path={`/${item.page}`} element={ <[Component] /> } />
+              thumbnailImage?.imageList?.map(( item: ThumbnailImage, index: number, portfolio ) => 
+                <Route path={`/${item.page}`} element={<portfolio[item.function] /> } />
               ))
             } */}
+
             <Route path='/' element={<Home />} />
             <Route path='/biography' element={<Biography />} />
             <Route path='/cv' element={<CV {...cvData} />} />
@@ -72,6 +82,11 @@ export const MainContainer = (cvData: CvDataModel) => {
             <Route path='/self.fulfilling.prophecy' element={<portfolio.SelfFulfillingProphecy />} />
             <Route path='/the.weight.of.an.object' element={<portfolio.TheWeightOfAnObject />} />
             <Route path='/wild.seeds' element={<portfolio.WildSeeds />} />
+            <Route path='/teaching' element={<TeachingPortfolio />} />
+            <Route path='/2d.design' element={<teachingPortfolio.TwoDDesign />} />
+            <Route path='/3d.design' element={<teachingPortfolio.ThreeDDesign />} />
+            <Route path='/beginning.metals' element={<teachingPortfolio.BeginningMetals />} />
+            <Route path='/advanced.metals' element={<teachingPortfolio.AdvancedMetals />} />
             <Route path='/shop' element={<Shop />} />
           </Routes>
         </div>

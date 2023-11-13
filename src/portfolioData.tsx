@@ -33,7 +33,8 @@ export const fragileMythsImage: Images = {
       media: 'packaging paper, cotton thread, methylcellulose',
       year: '2023',
       dimensions: "4' x 8' x 1'",
-      description: 'Sewn construction sculpture of Victorian chandelier earrings'
+      description: 'Sewn construction sculpture of Victorian chandelier earrings',
+      orientation: 'portrait'
     },
     {
       id: '22',
@@ -42,7 +43,8 @@ export const fragileMythsImage: Images = {
       media: 'packaging paper, cotton thread, methylcellulose',
       year: '2023',
       dimensions: "4' x 8' x 1'",
-      description: 'Sewn construction sculpture of Victorian chandelier earrings'
+      description: 'Sewn construction sculpture of Victorian chandelier earrings',
+      orientation: 'portrait'
     }
   ]
 };
@@ -57,7 +59,8 @@ export const profligacyImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2018',
       dimensions: '90" x 52" x 13"',
-      description: 'Sewn construction sculpture of Victorian chandelier earrings'
+      description: 'Sewn construction sculpture of Victorian chandelier earrings',
+      orientation: 'portrait'
     },
     {
       id: '24',
@@ -66,7 +69,8 @@ export const profligacyImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2018',
       dimensions: '90" x 52" x 13"',
-      description: 'Sewn construction sculpture of Victorian chandelier earrings'
+      description: 'Sewn construction sculpture of Victorian chandelier earrings',
+      orientation: 'portrait'
 
     }
   ]
@@ -82,7 +86,8 @@ export const decorativeImage: Images = {
       media: 'found fabric, fiber fill, steel wire',
       year: '2019',
       dimensions: '51" x 17" x 14"',
-      description: 'Sewn construction apron based on Victorian chandelier earrings'
+      description: 'Sewn construction apron based on Victorian chandelier earrings',
+      orientation: 'portrait'
     },
     {
       id: '26',
@@ -91,7 +96,8 @@ export const decorativeImage: Images = {
       media: 'found fabric, fiber fill, steel wire',
       year: '2019',
       dimensions: '51" x 17" x 14"',
-      description: 'Sewn construction apron based on Victorian chandelier earrings'
+      description: 'Sewn construction apron based on Victorian chandelier earrings',
+      orientation: 'portrait'
     },
     {
       id: '27',
@@ -100,7 +106,8 @@ export const decorativeImage: Images = {
       media: 'found fabric, fiber fill, steel wire',
       year: '2019',
       dimensions: '51" x 17" x 14"',
-      description: 'Sewn construction apron based on Victorian chandelier earrings'
+      description: 'Sewn construction apron based on Victorian chandelier earrings',
+      orientation: 'portrait'
     }
   ]
 };
@@ -115,7 +122,8 @@ export const dreamBigImage: Images = {
       media: 'cotton fabric, polyester mesh fabric, vinyl, thread, wooden dowels, steel wire',
       year: '2018',
       dimensions: "10' x 6' x 3.5'",
-      description: 'An installation of textile buildings and objects created in collaboration with art classes at the Academy of Entreprenuership Studies Middle School in St. Louis, MO through a Mural Arts project made possible by Craft Alliance. The fabric, was hand-dyed, embroidered, and machine sewn. The design was created by and selected by the students.'
+      description: 'An installation of textile buildings and objects created in collaboration with art classes at the Academy of Entreprenuership Studies Middle School in St. Louis, MO through a Mural Arts project made possible by Craft Alliance. The fabric, was hand-dyed, embroidered, and machine sewn. The design was created by and selected by the students.',
+      orientation: 'landscape'
     },
     {
       id: '29',
@@ -124,7 +132,8 @@ export const dreamBigImage: Images = {
       media: 'cotton fabric, polyester mesh fabric, vinyl, thread, wooden dowels, steel wire',
       year: '2018',
       dimensions: "10' x 6' x 3.5'",
-      description: 'An installation of textile buildings and objects created in collaboration with art classes at the Academy of Entreprenuership Studies Middle School in St. Louis, MO through a Mural Arts project made possible by Craft Alliance. The fabric, was hand-dyed, embroidered, and machine sewn. The design was created by and selected by the students.'
+      description: 'An installation of textile buildings and objects created in collaboration with art classes at the Academy of Entreprenuership Studies Middle School in St. Louis, MO through a Mural Arts project made possible by Craft Alliance. The fabric, was hand-dyed, embroidered, and machine sewn. The design was created by and selected by the students.',
+      orientation: 'landscape'
     },
     {
       id: '30',
@@ -133,7 +142,8 @@ export const dreamBigImage: Images = {
       media: 'cotton fabric, polyester mesh fabric, vinyl, thread, wooden dowels, steel wire',
       year: '2018',
       dimensions: "10' x 6' x 3.5'",
-      description: 'An installation of textile buildings and objects created in collaboration with art classes at the Academy of Entreprenuership Studies Middle School in St. Louis, MO through a Mural Arts project made possible by Craft Alliance. The fabric, was hand-dyed, embroidered, and machine sewn. The design was created by and selected by the students.'
+      description: 'An installation of textile buildings and objects created in collaboration with art classes at the Academy of Entreprenuership Studies Middle School in St. Louis, MO through a Mural Arts project made possible by Craft Alliance. The fabric, was hand-dyed, embroidered, and machine sewn. The design was created by and selected by the students.',
+      orientation: 'landscape'
     }
   ]
 };
@@ -148,7 +158,8 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewn construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring',
+      orientation: 'portrait'
     },
     {
       id: '32',
@@ -157,7 +168,8 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewn construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring',
+      orientation: 'portrait'
     },
     {
       id: '33',
@@ -166,7 +178,8 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewn construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring',
+      orientation: 'landscape'
     },
     {
       id: '34',
@@ -175,7 +188,8 @@ export const expectationsImage: Images = {
       media: 'found fabric, fiber fill',
       year: '2017',
       dimensions: '18" x 36" x 18"',
-      description: 'Sewn construction sculpture based on a diamond engagement ring'
+      description: 'Sewn construction sculpture based on a diamond engagement ring',
+      orientation: 'landscape'
     }
   ]
 };
@@ -190,7 +204,8 @@ export const excessiveImage: Images = {
       media: 'ceramic',
       year: '2017',
       dimensions: '11" x 18" x 15"',
-      description: 'Slab construction sculpture based on a diamond engagement ring'
+      description: 'Slab construction sculpture based on a diamond engagement ring',
+      orientation: 'portrait'
     },
     {
       id: '36',
@@ -199,7 +214,8 @@ export const excessiveImage: Images = {
       media: 'ceramic',
       year: '2017',
       dimensions: '11" x 18" x 15"',
-      description: 'Slab construction sculpture based on a diamond engagement ring'
+      description: 'Slab construction sculpture based on a diamond engagement ring',
+      orientation: 'landscape'
     }
   ]
 };
@@ -214,7 +230,8 @@ export const selfFulfillingProphecyImage: Images = {
       media: 'sterling silver, brass, bronze, copper',
       year: '2017',
       dimensions: '4" x 4" x 1"',
-      description: 'A tension-fitted container with a hollow-constructed brooch as the lid. The brooch is interactive in that some of the petals can be plucked from the flower.'
+      description: 'A tension-fitted container with a hollow-constructed brooch as the lid. The brooch is interactive in that some of the petals can be plucked from the flower.',
+      orientation: 'landscape'
     },
     {
       id: '38',
@@ -223,7 +240,8 @@ export const selfFulfillingProphecyImage: Images = {
       media: 'sterling silver, brass, bronze, copper',
       year: '2017',
       dimensions: '4" x 4" x 1"',
-      description: 'A tension-fitted container with a hollow-constructed brooch as the lid. The brooch is interactive in that some of the petals can be plucked from the flower.'
+      description: 'A tension-fitted container with a hollow-constructed brooch as the lid. The brooch is interactive in that some of the petals can be plucked from the flower.',
+      orientation: 'landscape'
     },
     {
       id: '39',
@@ -232,7 +250,8 @@ export const selfFulfillingProphecyImage: Images = {
       media: 'sterling silver, brass, bronze, copper',
       year: '2017',
       dimensions: '4" x 4" x 1"',
-      description: 'A tension-fitted container with a hollow-constructed brooch as the lid. The brooch is interactive in that some of the petals can be plucked from the flower.'
+      description: 'A tension-fitted container with a hollow-constructed brooch as the lid. The brooch is interactive in that some of the petals can be plucked from the flower.',
+      orientation: 'landscape'
     }
   ]
 };
@@ -247,7 +266,8 @@ export const wildSeedsImage: Images = {
       media: 'sterling silver, brass, bronze, copper',
       year: '2017',
       dimensions: '2.5" x 3" x 1"',
-      description: "A riveted brooch composed of Queen Anne's Lace and contaceptive pills"
+      description: "A riveted brooch composed of Queen Anne's Lace and contaceptive pills",
+      orientation: 'landscape'
     },
     {
       id: '41',
@@ -256,7 +276,8 @@ export const wildSeedsImage: Images = {
       media: 'sterling silver, brass, bronze, copper',
       year: '2017',
       dimensions: '2.5" x 3" x 1"',
-      description: "A riveted brooch composed of Queen Anne's Lace and contaceptive pills"
+      description: "A riveted brooch composed of Queen Anne's Lace and contaceptive pills",
+      orientation: 'landscape'
     }
   ]
 };
@@ -271,7 +292,8 @@ export const chainReactionImage: Images = {
       media: 'copper, enamel, sterling silver',
       year: '2016',
       dimensions: '12" x 12" x 0.5"',
-      description: 'A necklace detailing the effects of energy use on climate change'
+      description: 'A necklace detailing the effects of energy use on climate change',
+      orientation: 'portrait'
     },
     {
       id: '43',
@@ -280,7 +302,8 @@ export const chainReactionImage: Images = {
       media: 'copper, enamel, sterling silver',
       year: '2016',
       dimensions: '12" x 12" x 0.5"',
-      description: 'A necklace detailing the effects of energy use on climate change'
+      description: 'A necklace detailing the effects of energy use on climate change',
+      orientation: 'portrait'
     }
   ]
 };
@@ -295,7 +318,8 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.'    
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.',
+      orientation: 'landscape'    
     },
     {
       id: '45',
@@ -304,7 +328,8 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.',
+      orientation: 'landscape'
     },
     {
       id: '46',
@@ -313,7 +338,8 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to touch the object and pull it out of the display area, but as they do so they will have to tow the entire structure containing the weight of the item’s origins and history.'
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to touch the object and pull it out of the display area, but as they do so they will have to tow the entire structure containing the weight of the item’s origins and history.',
+      orientation: 'landscape'
     },
     {
       id: '47',
@@ -322,7 +348,8 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.',
+      orientation: 'landscape' 
     },
     {
       id: '48',
@@ -331,7 +358,8 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.',
+      orientation: 'landscape'
     },
     {
       id: '49',
@@ -340,7 +368,8 @@ export const theWeightOfAnObjectImage: Images = {
       media: 'multimedia: acrylic, steel, found objects, video',
       year: '2015',
       dimensions: "6' x 9' x 5'",
-      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.' 
+      description: 'Three public, interactive performances in Lawrence, KS. Through a multimedia, sculptural interface participants will be able to physically experience the metaphorical weight of a set of consumer objects – an iPhone, a pair of TOM’s shoes, and a KU t-shirt. Participants will be encouraged to tow the entire structure containing the weight of the item’s origins and history.',
+      orientation: 'landscape'
     },
     {
       id: '50',
@@ -359,7 +388,6 @@ export const theWeightOfAnObjectImage: Images = {
       year: '2015',
       dimensions: "6' x 9' x 5'",
       description: 'Video of participants discussing the item’s origins and history which was displayed through the back of the structureduring the performances.'
-   
     },
     {
       id: '52',
@@ -392,7 +420,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
       dimensions: "2' x 7' x 2'",
-      description: 'A wearable, body-specific sculpture representing the pysical manifestation of emotional dependence on another person through linking the bodies together in an inexorable way'
+      description: 'A wearable, body-specific sculpture representing the pysical manifestation of emotional dependence on another person through linking the bodies together in an inexorable way',
+      orientation: 'landscape'
     },
     {
       id: '55',
@@ -401,7 +430,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'stainless steel, wool, plastic, silicone, leather',
       year: '2013',
       dimensions: "7' x 2.5' x 2.5'",
-      description: 'A wearable, body-specific sculpture representing the pysical manifestation of emotional isolation through a body-sized cage surrounding the body'
+      description: 'A wearable, body-specific sculpture representing the pysical manifestation of emotional isolation through a body-sized cage surrounding the body',
+      orientation: 'portrait'
     },
     {
       id: '56',
@@ -410,7 +440,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'stainless steel, wool, silicone, aluminum, leather',
       year: '2013',
       dimensions: "5' x 2' x 2'",
-      description: 'A wearable, body-specific sculpture representing the pysical manifestation of deep-rooted shame through forcing the head into a lowered position'
+      description: 'A wearable, body-specific sculpture representing the pysical manifestation of deep-rooted shame through forcing the head into a lowered position',
+      orientation: 'landscape'
     },
     {
       id: '57',
@@ -419,7 +450,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
       dimensions: "5' x 2' x 2'",
-      description: 'A wearable, body-specific sculpture representing the pysical manifestation of inherent frustration and helplessness through inhibiting the utilitarian function of the hands'
+      description: 'A wearable, body-specific sculpture representing the pysical manifestation of inherent frustration and helplessness through inhibiting the utilitarian function of the hands',
+      orientation: 'landscape'
     },
     {
       id: '58',
@@ -428,7 +460,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'stainless steel, wool, plastic, leather',
       year: '2013',
       dimensions: "5' x 2' x 2'",
-      description: 'A wearable, body-specific sculpture representing the pysical manifestation of inherent frustration and helplessness through inhibiting the utilitarian function of the hands'
+      description: 'A wearable, body-specific sculpture representing the pysical manifestation of inherent frustration and helplessness through inhibiting the utilitarian function of the hands',
+      orientation: 'landscape'
     },
     {
       id: '59',
@@ -437,7 +470,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'multimedia: wool, stainless steel, found objects, video',
       year: '2013',
       dimensions: 'variable dimensions',
-      description: 'Four wearable sculptures representing intangible feelings translated into physical form. Each object attaches to a specific part of the body and limits the mobility of that area. These devices composed of steel, fiber and plastic are not easily identifiable and retain qualities of clothing, corrective braces, traps, and living organisms. Accompanying video, showing a person interacting with the work, is projected onto screens and the sculptures themselves.'
+      description: 'Four wearable sculptures representing intangible feelings translated into physical form. Each object attaches to a specific part of the body and limits the mobility of that area. These devices composed of steel, fiber and plastic are not easily identifiable and retain qualities of clothing, corrective braces, traps, and living organisms. Accompanying video, showing a person interacting with the work, is projected onto screens and the sculptures themselves.',
+      orientation: 'landscape'
     },
     {
       id: '60',
@@ -446,7 +480,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'multimedia: wool, stainless steel, found objects, video',
       year: '2013',
       dimensions: 'variable dimensions',
-      description: 'Four wearable sculptures representing intangible feelings translated into physical form. Each object attaches to a specific part of the body and limits the mobility of that area. These devices composed of steel, fiber and plastic are not easily identifiable and retain qualities of clothing, corrective braces, traps, and living organisms. Accompanying video, showing a person interacting with the work, is projected onto screens and the sculptures themselves.'
+      description: 'Four wearable sculptures representing intangible feelings translated into physical form. Each object attaches to a specific part of the body and limits the mobility of that area. These devices composed of steel, fiber and plastic are not easily identifiable and retain qualities of clothing, corrective braces, traps, and living organisms. Accompanying video, showing a person interacting with the work, is projected onto screens and the sculptures themselves.',
+      orientation: 'landscape'
     },
     {
       id: '61',
@@ -455,7 +490,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'multimedia: wool, stainless steel, found objects, video',
       year: '2013',
       dimensions: 'variable dimensions',
-      description: 'Four wearable sculptures representing intangible feelings translated into physical form. Each object attaches to a specific part of the body and limits the mobility of that area. These devices composed of steel, fiber and plastic are not easily identifiable and retain qualities of clothing, corrective braces, traps, and living organisms. Accompanying video, showing a person interacting with the work, is projected onto screens and the sculptures themselves.'
+      description: 'Four wearable sculptures representing intangible feelings translated into physical form. Each object attaches to a specific part of the body and limits the mobility of that area. These devices composed of steel, fiber and plastic are not easily identifiable and retain qualities of clothing, corrective braces, traps, and living organisms. Accompanying video, showing a person interacting with the work, is projected onto screens and the sculptures themselves.',
+      orientation: 'landscape'
     },
     {
       id: '62',
@@ -464,7 +500,8 @@ export const projectionIdentificationEmpathyImage: Images = {
       media: 'stainless steel, wool, silicone, aluminum, leather',
       year: '2013',
       dimensions: "5' x 2' x 2'",
-      description: 'A wearable, body-specific sculpture representing the pysical manifestation of deep-rooted shame through forcing the head into a lowered position'
+      description: 'A wearable, body-specific sculpture representing the pysical manifestation of deep-rooted shame through forcing the head into a lowered position',
+      orientation: 'landscape'
     },
     {
       id: '63',
@@ -474,7 +511,6 @@ export const projectionIdentificationEmpathyImage: Images = {
       year: '2013',
       dimensions: "7' x 2.5' x 2.5'",
       description: 'Video of the participant interacting with a body-specific sculpture representing the pysical manifestation of deep-rooted shame through forcing the head into a lowered position'
-   
     },
     {
       id: '64',
@@ -525,7 +561,8 @@ export const bodySculpturesImage: Images = {
       media: 'steel, cotton, beeswax',
       year: '2011',
       dimensions: '14" x 38" x 31"',
-      description: 'Crocheted cotton dipped in beeswax and woven metal sculpture referencing the human body'
+      description: 'Crocheted cotton dipped in beeswax and woven metal sculpture referencing the human body',
+      orientation: 'landscape'
     },
     {
       id: '69',
@@ -534,7 +571,8 @@ export const bodySculpturesImage: Images = {
       media: 'steel, plastic, mulberry paper',
       year: '2011',
       dimensions: '18" x 22" x 28"',
-      description: 'Crocheted plastic and woven metal sculpture referencing the human body'
+      description: 'Crocheted plastic and woven metal sculpture referencing the human body',
+      orientation: 'portrait'
     },
     {
       id: '70',
@@ -543,7 +581,8 @@ export const bodySculpturesImage: Images = {
       media: 'steel, plastic, mulberry paper',
       year: '2011',
       dimensions: '18" x 22" x 28"',
-      description: 'Crocheted plastic and woven metal sculpture referencing the human body'
+      description: 'Crocheted plastic and woven metal sculpture referencing the human body',
+      orientation: 'portrait'
     }
   ]
 };
@@ -558,7 +597,8 @@ export const osteodermImage: Images = {
       media: 'anodized aluminum, waxed linen',
       year: '2011',
       dimensions: '5.5" x 5.5" x 5"',
-      description: 'A body-oriented, site-specific object referencing animal armor and decorative clothing'
+      description: 'A body-oriented, site-specific object referencing animal armor and decorative clothing',
+      orientation: 'portrait'
     },
     {
       id: '72',
@@ -567,7 +607,8 @@ export const osteodermImage: Images = {
       media: 'anodized aluminum, waxed linen',
       year: '2011',
       dimensions: '5.5" x 5.5" x 5"',
-      description: 'A body-oriented, site-specific object referencing animal armor and decorative clothing'
+      description: 'A body-oriented, site-specific object referencing animal armor and decorative clothing',
+      orientation: 'landscape'
     },
   ]
 };
@@ -582,7 +623,8 @@ export const phalangealThelodontsImage: Images = {
       media: 'steel, waxed linen',
       year: '2011',
       dimensions: '13"x 11"x 7"',
-      description: 'A body-oriented, site-specific object referencing animal traps and armor'
+      description: 'A body-oriented, site-specific object referencing animal traps and armor',
+      orientation: 'landscape'
     },
     {
       id: '74',
@@ -591,7 +633,8 @@ export const phalangealThelodontsImage: Images = {
       media: 'steel, waxed linen',
       year: '2011',
       dimensions: '13"x 11"x 7"',
-      description: 'A body-oriented, site-specific object referencing animal traps and armor'
+      description: 'A body-oriented, site-specific object referencing animal traps and armor',
+      orientation: 'landscape'
     },
   ]
 };
@@ -606,7 +649,8 @@ export const defenseMechanismImage: Images = {
       media: 'anodized aluminum, steel',
       year: '2011',
       dimensions: '5" x 6" x 3.5"',
-      description: 'A body-oriented, site-specific object referencing clothing, armor and torture devices'
+      description: 'A body-oriented, site-specific object referencing clothing, armor and torture devices',
+      orientation: 'landscape'
     },
     {
       id: '76',
@@ -615,7 +659,8 @@ export const defenseMechanismImage: Images = {
       media: 'anodized aluminum, steel',
       year: '2011',
       dimensions: '5" x 6" x 3.5"',
-      description: 'A body-oriented, site-specific object referencing clothing, armor and torture devices'
+      description: 'A body-oriented, site-specific object referencing clothing, armor and torture devices',
+      orientation: 'landscape'
     },
     {
       id: '77',
@@ -624,7 +669,8 @@ export const defenseMechanismImage: Images = {
       media: 'anodized aluminum, steel',
       year: '2011',
       dimensions: '5" x 6" x 3.5"',
-      description: 'A body-oriented, site-specific object referencing clothing, armor and torture devices'
+      description: 'A body-oriented, site-specific object referencing clothing, armor and torture devices',
+      orientation: 'landscape'
     },
   ]
 };
@@ -639,7 +685,8 @@ export const epithelialNeoplasmsImage: Images = {
       media: 'copper, enamel, monofilament, steel, sterling silver',
       year: '2009',
       dimensions: '18" x 13" x 10"',
-      description: 'A body-oriented, site-specific necklace that also fits together to complete a bulbous form referencing tumors and growth in nature'
+      description: 'A body-oriented, site-specific necklace that also fits together to complete a bulbous form referencing tumors and growth in nature',
+      orientation: 'portrait'
     },
     {
       id: '79',
@@ -648,7 +695,8 @@ export const epithelialNeoplasmsImage: Images = {
       media: 'copper, enamel, monofilament, steel, sterling silver',
       year: '2009',
       dimensions: '18" x 13" x 10"',
-      description: 'A body-oriented, site-specific necklace that also fits together to complete a bulbous form referencing tumors and growth in nature'
+      description: 'A body-oriented, site-specific necklace that also fits together to complete a bulbous form referencing tumors and growth in nature',
+      orientation: 'landscape'
     },
     {
       id: '80',
@@ -657,7 +705,8 @@ export const epithelialNeoplasmsImage: Images = {
       media: 'copper, enamel, monofilament, steel, sterling silver',
       year: '2009',
       dimensions: '18" x 13" x 10"',
-      description: 'A body-oriented, site-specific necklace that also fits together to complete a bulbous form referencing tumors and growth in nature'
+      description: 'A body-oriented, site-specific necklace that also fits together to complete a bulbous form referencing tumors and growth in nature',
+      orientation: 'landscape'
     },
   ]
 };
@@ -672,7 +721,8 @@ export const apotheciaImage: Images = {
       media: 'cast paper, aluminum, copper',
       year: '2009',
       dimensions: '25" x 15" x 18"',
-      description: 'A body-oriented necklace composed of bulbous forms representing rapid natural growth'
+      description: 'A body-oriented necklace composed of bulbous forms representing rapid natural growth',
+      orientation: 'portrait'
     },
     {
       id: '82',
@@ -681,7 +731,8 @@ export const apotheciaImage: Images = {
       media: 'cast paper, aluminum, copper',
       year: '2009',
       dimensions: '25" x 15" x 18"',
-      description: 'A body-oriented necklace composed of bulbous forms representing rapid natural growth'
+      description: 'A body-oriented necklace composed of bulbous forms representing rapid natural growth',
+      orientation: 'portrait'
     }
   ]
 };
@@ -696,7 +747,8 @@ export const burdensomeImage: Images = {
       media: 'performance, video, sculpture: steel, plastic',
       year: '2016',
       dimensions: '37" x 22" x 16"',
-      description: 'Still from the performance of eating an apple while wearing a body-specific sculpture inhibiting the function of the head and hand'
+      description: 'Still from the performance of eating an apple while wearing a body-specific sculpture inhibiting the function of the head and hand',
+      orientation: 'landscape'
     },
     {
       id: '84',
@@ -705,8 +757,8 @@ export const burdensomeImage: Images = {
       media: 'performance, video, sculpture: steel, plastic',
       year: '2016',
       dimensions: '37" x 22" x 16"',
-      description: 'Still from the performance of eating an apple while wearing a body-specific sculpture inhibiting the function of the head and hand'
-    
+      description: 'Still from the performance of eating an apple while wearing a body-specific sculpture inhibiting the function of the head and hand',
+      orientation: 'portrait'
     },
     {
       id: '85',
@@ -715,7 +767,7 @@ export const burdensomeImage: Images = {
       media: 'performance, video, sculpture: steel, plastic',
       year: '2016',
       dimensions: '37" x 22" x 16"',
-      description: 'Video of the performance of eating an apple while wearing a body-specific sculpture inhibiting the function of the head and hand'
+      description: 'Video of the performance of eating an apple while wearing a body-specific sculpture inhibiting the function of the head and hand',
     }
   ]
 };

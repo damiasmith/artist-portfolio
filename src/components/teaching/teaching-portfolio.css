@@ -3,30 +3,22 @@
   font-size: 4rem;
 }
 
-.image {
-  max-height: 1200px;
-  height: auto;
-  width: auto;
-  max-width: 1200px;
-  margin: 1rem;
-  border-radius: .2rem;
+.class-header {
+  margin-left: 3rem;
+  font-size: 1rem;
 }
 
-.image:hover {
+.teaching-image {
+  margin: 1rem;
+  border-radius: .2rem;
+  flex-direction: row;
+}
+
+.teaching-image:hover {
   cursor: grab;
 }
 
-.video {
-  max-height: 1200px;
-  max-width: 1200px;
-  margin: 2rem;
-  border-radius: .2rem;
-  position: static;
-  width: 1200px;
-  height: 900px;
-}
-
-.modal-image {
+.teaching-modal-image {
   max-height: 125rem;
   height: auto;
   width: auto;
@@ -36,16 +28,16 @@
   border-radius: .2rem;
 }
 
-.image-container {
+.teaching-image-container {
   align-items: center;
   margin-right: 1rem;
   margin-left: 1rem;
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  align-items: center;
+  flex-direction: row;
 }
 
 .modal-container {
@@ -63,29 +55,49 @@
 .modal-header{
   font-size: 3rem;
 }
+.class-name {
+  margin-left: 3rem;
+  font-size: 1rem;
+}
+
+.teaching-thumbnail-image {
+  margin: 1rem;
+  border-radius: .3rem;
+}
+
+.teaching-thumbnail-container {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 7rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.teaching-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 
 @media screen and (max-width: 2900px) {
   .header{
     font-size: 4rem;
   }
 
-  .image {
+  .teahcing-image {
     max-height: 1000px;
     max-width: 1000px;
   }
   
-  .image:hover {
+  .teaching-image:hover {
     cursor: grab;
   }
   
-  .video {
-    max-height: 1000px;
-    max-width: 1000px;
-    width: 1000px;
-    height: 700px;
-  }
-
-  .modal-image {
+  .teaching-modal-image {
     max-height: 105rem;
     max-width: 110rem;
     min-width: 39rem;
@@ -107,19 +119,12 @@
     font-size: 3rem;
   }
 
-  .image {
+  .teahcing-image {
     max-height: 800px;
     max-width: 800px;
-  }
-  
-  .video {
-    max-height: 800px;
-    max-width: 800px;
-    width: 800px;
-    height: 600px;
   }
 
-  .modal-image {
+  .teaching-modal-image {
     max-height: 80rem;
     max-width: 85rem;
     min-width: 39rem;
@@ -141,19 +146,12 @@
     font-size: 2rem;
   }
 
-  .image {
+  .teaching-image {
     max-height: 600px;
     max-width: 600px;
-  }
-  
-  .video {
-    max-height: 600px;
-    max-width: 600px;
-    width: 600px;
-    height: 400px;
   }
 
-  .modal-image {
+  .teaching-modal-image {
     max-height: 60rem;
     max-width: 65rem;
     min-width: 19rem;
@@ -168,6 +166,10 @@
   .modal-header{
     font-size: 1rem;
   }
+
+  .teaching-image-container {
+    margin-bottom: 3rem;
+  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -175,19 +177,12 @@
     font-size: 1.5rem;
   }
 
-  .image {
+  /* .image {
     max-height: 400px;
     max-width: 400px;
-  }
+  } */
   
-  .video {
-    max-height: 400px;
-    max-width: 400px;
-    width: 400px;
-    height: 250px;
-  }
-
-  .modal-image {
+  .teaching-modal-image {
     max-height: 45rem;
     max-width: 40rem;
     min-width: 19rem;
@@ -197,6 +192,11 @@
     max-width: 45rem;
     max-height: 50rem;
   }
+
+  .teaching-thumbnail-image {
+    max-height: 200px;
+    max-width: 200px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -204,13 +204,13 @@
     font-size: 1rem;
   }
 
-  .image {
-    max-height: 300px;
-    max-width: 300px;
+  .teaching-image {
+    max-height: 200px;
+    max-width: 200px;
     margin: .5rem;
   }
 
-  .modal-image {
+  .teaching-modal-image {
     max-height: 800px;
     max-width: 500px;
   }
@@ -225,7 +225,7 @@
 
 @media screen and (max-width: 550px) {
 
-  .modal-image {
+  .teaching-modal-image {
     max-width: 400px;
   }
 
@@ -233,17 +233,41 @@
     max-height: 420px;
     max-width: 420px;
   }
-
-  .video {
-    position: static;
-    width:300px;
-    height:165px;
-  }
 }
 
 @media screen and (max-width: 420px) {
-  .modal-image {
+  .teaching-modal-image {
     max-width: 300px;
     margin: .2rem;
+  }
+
+  .teaching-image {
+    max-height: 150px;
+    max-width: 150px;
+    margin: .5rem;
+  }
+
+  .class-name {
+    margin-left: .5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .teaching-thumbnail-image {
+    max-height: 150px;
+    max-width: 150px;
+  }
+
+  .teaching-thumbnail-container {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+
+  .teaching-image-container {
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 5rem;
   }
 }
