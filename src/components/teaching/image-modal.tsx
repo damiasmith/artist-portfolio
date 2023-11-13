@@ -61,7 +61,7 @@ export const ClassImages = (classImages: StudentImages) => {
               <div>
                 <img
                   src={`${s3}/${getImage(index, id)?.image}.jpg`}
-                  className='modal-image img-fluid'
+                  className='teaching-modal-image img-fluid'
                   alt={`${getImage(index, id)?.image}`}
                   height='600'
                 />

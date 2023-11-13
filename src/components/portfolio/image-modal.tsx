@@ -29,8 +29,8 @@ export const ImageOrVideo = (item: Image, setShow: React.Dispatch<React.SetState
           src={`${s3}/${item.image}.jpg`} 
           className='image' 
           alt={`${item.image}`}                     
-          height={item.orientation === 'portrait' ? '300' : 'auto'}
-          width={item.orientation === 'landscape' ? '300' : 'auto'} 
+          height={item.orientation === 'portrait' ? '600' : 'auto'}
+          width={item.orientation === 'landscape' ? '600' : 'auto'} 
           onClick={() => { setShow(true); setId(item.id as any) }} 
         />
       </div>
