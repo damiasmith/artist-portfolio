@@ -1,12 +1,18 @@
 import { CvDataModel, SocialLinksModel } from './models/cvData.model';
 
 import {
+  faInstagram,
   faLinkedin,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 
 export const footerLinks: { socialLinks: SocialLinksModel[] } = {
   socialLinks: [
+    {
+      name: 'instagram',
+      url: 'https://www.instagram.com/damia.smith.art/',
+      className: faInstagram,
+    },
     {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/damia-smith',
@@ -76,7 +82,7 @@ export const cvData: CvDataModel = {
         role: 'Lecturer/ Instructor-of-Record',
         institution: 'University of Kansas',
         location: 'Lawrence, KS',
-        year: '2010-2013 2014-2015',
+        year: '2010-2013              2014-2015',
         classes: ['ART 123 Fundamentals of Metalsmithing and Jewelry']
       },
     ],

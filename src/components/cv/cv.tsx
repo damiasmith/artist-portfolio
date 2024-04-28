@@ -68,7 +68,7 @@ export const CV = (cvData: CvDataModel) => {
                       return (
                         <div>
                           <Row className='item' key={index}>
-                            <Col sm='2'>{item.year}</Col>
+                            <Col className='year'sm='2'>{item.year}</Col>
                             <Col>
                               <Row>
                                 <div className='container'>
@@ -85,8 +85,7 @@ export const CV = (cvData: CvDataModel) => {
                                     return (
                                       <div key={index} className='indent'>{item}</div>
                                     )
-                                  }
-                                  )}
+                                  })}
                                 </div>
                               </Row>
                             </Col>

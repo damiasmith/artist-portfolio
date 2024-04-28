@@ -59,6 +59,11 @@
   z-index: 3;
 }
 
+.year {
+  flex-direction: column;
+  padding-right: 5rem;
+}
+
 @media screen and (max-width: 2800px) {
   .cv-header {
     font-size: 3rem;

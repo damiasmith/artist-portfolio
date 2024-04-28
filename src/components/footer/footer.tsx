@@ -46,7 +46,7 @@ export const Footer = (cvData: CvDataModel) => {
         </Col>
       </Navbar>
       <div className='copyright'>
-        Copyright © 2008 Damia Smith
+        Copyright © 2008-2024 Damia Smith
       </div>
     </footer>
   );

@@ -24,7 +24,7 @@ export const teachingThumbnailImage: ThumbnailImages = {
       page: 'beginning.metals', 
       function: 'BeginningMetals', 
       orientation: 'landscape',
-      class: 'Advanced Metals' 
+      class: 'Beginning Metals' 
     },
     { 
       id: '4', 
@@ -32,7 +32,7 @@ export const teachingThumbnailImage: ThumbnailImages = {
       page: 'advanced.metals', 
       function: 'AdvancedMetals', 
       orientation: 'portrait',
-      class: 'Beginning Metals' 
+      class: 'Advanced Metals' 
     }
   ]
 };
